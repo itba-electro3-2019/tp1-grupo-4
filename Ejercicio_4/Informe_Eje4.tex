@@ -92,3 +92,51 @@ Que al reemplazar cada mintérmino por su correspondiente expresión obtenemos:
 	X_1 \cdot X_2 \cdot X_3 \cdot X_4$\\
 \end{center}
 Tenemos unas funciones muy larga y como las tenemos expresadas en mintérminos podemos simplificarlas por medio del mapa de Karnaugh. Ésto nos da a lugar a los siguientes mapas de Karnaugh y funciones de salida simplificadas:\\
+\begin{center}
+	%Y4
+	\begin{Karnaugh}
+        \contingut{0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0}
+       	\implicant{4}{6}{red}
+       	\implicant{8}{10}{purple}
+    \end{Karnaugh}
+    %Y3
+    \begin{Karnaugh}
+        \contingut{0,1,0,1,0,1,0,1,1,0,1,0,1,0,1,0}
+        \implicant{1}{7}{red}
+        \implicantcostats{12}{10}{purple}
+    \end{Karnaugh}\\
+    %Y4
+    $Y_4=X_3 \cdot \overline{X_4}+\overline{X_3} \cdot X_4$
+    \hspace{28mm}
+    %Y3
+    $Y_3=X_2 \cdot \overline{X_3}+\overline{X_2} \cdot X_3$\\
+    %Y4
+    Mapa de Karnaugh y formula de $Y_4$
+    \hspace{6mm}
+    %Y3
+    Mapa de Karnaugh y formula de $Y_3$\\
+\end{center}
+\medskip
+\begin{center}
+	%Y2
+	\begin{Karnaugh}
+        \contingut{0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0}
+        \implicant{1}{9}{red}
+        \implicant{2}{10}{purple}
+    \end{Karnaugh}
+    %Y1
+    \begin{Karnaugh}
+        \contingut{0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1}
+        \implicant{3}{10}{red}
+    \end{Karnaugh}\\
+    %Y2
+    $Y_2=X_1 \cdot \overline{X_2}+\overline{X_1} \cdot X_2$
+    \hspace{28mm}
+    %Y1
+    $Y_1=X_1$\\
+    %Y2
+    Mapa de Karnaugh y formula de $Y_2$
+    \hspace{6mm}
+    %Y3
+    Mapa de Karnaugh y formula de $Y_1$\\
+\end{center}
