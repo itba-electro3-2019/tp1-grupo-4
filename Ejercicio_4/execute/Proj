@@ -1,0 +1,84 @@
+#! /usr/bin/vvp
+:ivl_version "10.1 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x7fffe88421f0 .scope module, "Main" "Main" 2 1;
+ .timescale 0 0;
+v0x7fffe8863570_0 .var "dummy", 0 0;
+v0x7fffe8863630_0 .var "x", 3 0;
+v0x7fffe88636f0_0 .net "y", 3 0, L_0x7fffe8864de0;  1 drivers
+S_0x7fffe8842370 .scope module, "Gray" "gray" 2 7, 3 1 0, S_0x7fffe88421f0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "x"
+    .port_info 1 /OUTPUT 4 "y"
+L_0x7fffe88637f0 .functor NOT 1, L_0x7fffe88638c0, C4<0>, C4<0>, C4<0>;
+L_0x7fffe88639b0 .functor NOT 1, L_0x7fffe8863a20, C4<0>, C4<0>, C4<0>;
+L_0x7fffe8863b10 .functor NOT 1, L_0x7fffe8863bb0, C4<0>, C4<0>, C4<0>;
+L_0x7fffe8863ca0 .functor NOT 1, L_0x7fffe8863d70, C4<0>, C4<0>, C4<0>;
+L_0x7fffe8863e40 .functor AND 1, L_0x7fffe8863f30, L_0x7fffe88639b0, C4<1>, C4<1>;
+L_0x7fffe8864020 .functor AND 1, L_0x7fffe88637f0, L_0x7fffe8864120, C4<1>, C4<1>;
+L_0x7fffe8864250 .functor OR 1, L_0x7fffe8863e40, L_0x7fffe8864020, C4<0>, C4<0>;
+L_0x7fffe8864360 .functor AND 1, L_0x7fffe8864470, L_0x7fffe8863b10, C4<1>, C4<1>;
+L_0x7fffe8864670 .functor AND 1, L_0x7fffe88639b0, L_0x7fffe88646e0, C4<1>, C4<1>;
+L_0x7fffe8864820 .functor OR 1, L_0x7fffe8864360, L_0x7fffe8864670, C4<0>, C4<0>;
+L_0x7fffe8864990 .functor AND 1, L_0x7fffe8864a00, L_0x7fffe8863ca0, C4<1>, C4<1>;
+L_0x7fffe8864af0 .functor AND 1, L_0x7fffe8863b10, L_0x7fffe8864bd0, C4<1>, C4<1>;
+L_0x7fffe8864d20 .functor OR 1, L_0x7fffe8864990, L_0x7fffe8864af0, C4<0>, C4<0>;
+v0x7fffe883fe10_0 .net *"_s11", 0 0, L_0x7fffe8863d70;  1 drivers
+v0x7fffe883ef20_0 .net *"_s14", 0 0, L_0x7fffe8863f30;  1 drivers
+v0x7fffe883e000_0 .net *"_s17", 0 0, L_0x7fffe8864120;  1 drivers
+v0x7fffe88621e0_0 .net *"_s19", 0 0, L_0x7fffe8864250;  1 drivers
+v0x7fffe88622c0_0 .net *"_s2", 0 0, L_0x7fffe88638c0;  1 drivers
+v0x7fffe88623f0_0 .net *"_s23", 0 0, L_0x7fffe8864470;  1 drivers
+v0x7fffe88624d0_0 .net *"_s26", 0 0, L_0x7fffe88646e0;  1 drivers
+v0x7fffe88625b0_0 .net *"_s28", 0 0, L_0x7fffe8864820;  1 drivers
+v0x7fffe8862690_0 .net *"_s32", 0 0, L_0x7fffe8864a00;  1 drivers
+v0x7fffe8862770_0 .net *"_s35", 0 0, L_0x7fffe8864bd0;  1 drivers
+v0x7fffe8862850_0 .net *"_s37", 0 0, L_0x7fffe8864d20;  1 drivers
+v0x7fffe8862930_0 .net *"_s43", 0 0, L_0x7fffe8864fc0;  1 drivers
+v0x7fffe8862a10_0 .net *"_s5", 0 0, L_0x7fffe8863a20;  1 drivers
+v0x7fffe8862af0_0 .net *"_s8", 0 0, L_0x7fffe8863bb0;  1 drivers
+v0x7fffe8862bd0_0 .net "conet_11", 0 0, L_0x7fffe8863e40;  1 drivers
+v0x7fffe8862c90_0 .net "conet_12", 0 0, L_0x7fffe8864020;  1 drivers
+v0x7fffe8862d50_0 .net "conet_21", 0 0, L_0x7fffe8864360;  1 drivers
+v0x7fffe8862e10_0 .net "conet_22", 0 0, L_0x7fffe8864670;  1 drivers
+v0x7fffe8862ed0_0 .net "conet_31", 0 0, L_0x7fffe8864990;  1 drivers
+v0x7fffe8862f90_0 .net "conet_32", 0 0, L_0x7fffe8864af0;  1 drivers
+v0x7fffe8863050_0 .net "not_1", 0 0, L_0x7fffe88637f0;  1 drivers
+v0x7fffe8863110_0 .net "not_2", 0 0, L_0x7fffe88639b0;  1 drivers
+v0x7fffe88631d0_0 .net "not_3", 0 0, L_0x7fffe8863b10;  1 drivers
+v0x7fffe8863290_0 .net "not_4", 0 0, L_0x7fffe8863ca0;  1 drivers
+v0x7fffe8863350_0 .net "x", 3 0, v0x7fffe8863630_0;  1 drivers
+v0x7fffe8863430_0 .net "y", 3 0, L_0x7fffe8864de0;  alias, 1 drivers
+L_0x7fffe88638c0 .part v0x7fffe8863630_0, 0, 1;
+L_0x7fffe8863a20 .part v0x7fffe8863630_0, 1, 1;
+L_0x7fffe8863bb0 .part v0x7fffe8863630_0, 2, 1;
+L_0x7fffe8863d70 .part v0x7fffe8863630_0, 3, 1;
+L_0x7fffe8863f30 .part v0x7fffe8863630_0, 0, 1;
+L_0x7fffe8864120 .part v0x7fffe8863630_0, 1, 1;
+L_0x7fffe8864470 .part v0x7fffe8863630_0, 1, 1;
+L_0x7fffe88646e0 .part v0x7fffe8863630_0, 2, 1;
+L_0x7fffe8864a00 .part v0x7fffe8863630_0, 2, 1;
+L_0x7fffe8864bd0 .part v0x7fffe8863630_0, 3, 1;
+L_0x7fffe8864de0 .concat8 [ 1 1 1 1], L_0x7fffe8864250, L_0x7fffe8864820, L_0x7fffe8864d20, L_0x7fffe8864fc0;
+L_0x7fffe8864fc0 .part v0x7fffe8863630_0, 3, 1;
+    .scope S_0x7fffe88421f0;
+T_0 ;
+    %vpi_func 2 10 "$value$plusargs" 32, "x=%b", v0x7fffe8863630_0 {0 0 0};
+    %pad/u 1;
+    %store/vec4 v0x7fffe8863570_0, 0, 1;
+    %delay 5, 0;
+    %vpi_call 2 13 "$display", "Normal: %b", v0x7fffe8863630_0 {0 0 0};
+    %vpi_call 2 14 "$display", "Gray: %b", v0x7fffe88636f0_0 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "Main.v";
+    "Gray.v";
