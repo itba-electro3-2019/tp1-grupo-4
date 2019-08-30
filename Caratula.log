@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  28 AUG 2019 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  29 AUG 2019 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -102,41 +102,8 @@ Overfull \hbox (12.74983pt too wide) in paragraph at lines 5--5
  []
 
 ! Undefined control sequence.
-l.8     { \Huge
-                \bfseries Trabajo PrÃ¡ctico NÂ°1}\\[0.4cm]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no Ã in font cmbx10!
-Missing character: There is no ¡ in font cmbx10!
-Missing character: There is no Â in font cmbx10!
-Missing character: There is no ° in font cmbx10!
-
-Overfull \hbox (39.24976pt too wide) in paragraph at lines 8--8
- []\OT1/cmr/bx/n/10 Trabajo 
- []
-
-
-Overfull \hbox (21.54156pt too wide) in paragraph at lines 8--8
- \OT1/cmr/bx/n/10 Prc- 
- []
-
-
-Overfull \hbox (18.52768pt too wide) in paragraph at lines 8--8
- \OT1/cmr/bx/n/10 tico 
- []
-
-
-Overfull \hbox (14.74992pt too wide) in paragraph at lines 8--8
- \OT1/cmr/bx/n/10 N1 
- []
-
-! Undefined control sequence.
-l.12     {\large
-                
+l.12     \large
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -336,17 +303,6 @@ Overfull \hbox (22.1109pt too wide) in paragraph at lines 36--36
  \OT1/cmr/m/sc/10 2019 
  []
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.38     \end{center}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 ! LaTeX Error: \begin{document} ended by \end{titlepage}.
 
@@ -370,9 +326,9 @@ or  <return>  to continue without it.
 Here is how much of TeX's memory you used:
  21 strings out of 494820
  299 string characters out of 6177789
- 48675 words of memory out of 5000000
+ 47675 words of memory out of 5000000
  3449 multiletter control sequences out of 15000+600000
  4595 words of font info for 17 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 19i,7n,12p,116b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,7n,12p,116b,195s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

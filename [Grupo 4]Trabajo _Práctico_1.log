@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  30 AUG 2019 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  30 AUG 2019 00:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"[Grupo 4]Trabajo Práctico 1.tex"
-(./[Grupo 4]Trabajo Práctico 1.tex
+**"[Grupo 4]Trabajo _Práctico_1.tex"
+(./[Grupo 4]Trabajo _Práctico_1.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 8 language(s) loaded.
 (./Preambulo.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -365,83 +365,39 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count87
-\U@D=\dimen105
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count88
-)
-\es@quottoks=\toks17
-\es@quotdepth=\count89
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count90
-\Gm@cntv=\count91
-\c@Gm@tempcnt=\count92
-\Gm@bindingoffset=\dimen106
-\Gm@wd@mp=\dimen107
-\Gm@odd@mp=\dimen108
-\Gm@even@mp=\dimen109
-\Gm@layoutwidth=\dimen110
-\Gm@layoutheight=\dimen111
-\Gm@layouthoffset=\dimen112
-\Gm@layoutvoffset=\dimen113
-\Gm@dimlist=\toks18
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count93
-\float@exts=\toks19
-\float@box=\box26
-\@float@everytoks=\toks20
-\@floatcapt=\box27
-)
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
-Package: todonotes 2012/07/25
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count89
+\calc@Cskip=\skip45
 )
-\XKV@depth=\count94
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -459,18 +415,102 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen107
+\AM@pageheight=\dimen108
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
+\AM@pagebox=\box26
+\AM@global@opts=\toks17
+\AM@toc@title=\toks18
+\c@AM@survey=\count90
+\AM@templatesizebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen109
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count92
+)
+\es@quottoks=\toks19
+\es@quotdepth=\count93
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count94
+\Gm@cntv=\count95
+\c@Gm@tempcnt=\count96
+\Gm@bindingoffset=\dimen110
+\Gm@wd@mp=\dimen111
+\Gm@odd@mp=\dimen112
+\Gm@even@mp=\dimen113
+\Gm@layoutwidth=\dimen114
+\Gm@layoutheight=\dimen115
+\Gm@layouthoffset=\dimen116
+\Gm@layoutvoffset=\dimen117
+\Gm@dimlist=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count98
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks23
-\pgfutil@tempdima=\dimen114
-\pgfutil@tempdimb=\dimen115
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen118
+\pgfutil@tempdimb=\dimen119
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box28
+\pgfutil@abb=\box30
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -485,30 +525,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen116
-\pgf@y=\dimen117
-\pgf@xa=\dimen118
-\pgf@ya=\dimen119
-\pgf@xb=\dimen120
-\pgf@yb=\dimen121
-\pgf@xc=\dimen122
-\pgf@yc=\dimen123
+\pgf@x=\dimen120
+\pgf@y=\dimen121
+\pgf@xa=\dimen122
+\pgf@ya=\dimen123
+\pgf@xb=\dimen124
+\pgf@yb=\dimen125
+\pgf@xc=\dimen126
+\pgf@yc=\dimen127
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count95
-\c@pgf@countb=\count96
-\c@pgf@countc=\count97
-\c@pgf@countd=\count98
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\c@pgf@counta=\count99
+\c@pgf@countb=\count100
+\c@pgf@countc=\count101
+\c@pgf@countd=\count102
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -524,8 +564,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count99
-\pgfsyssoftpath@bigbuffer@items=\count100
+\pgfsyssoftpath@smallbuffer@items=\count103
+\pgfsyssoftpath@bigbuffer@items=\count104
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -538,12 +578,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen124
-\pgfmath@count=\count101
-\pgfmath@box=\box29
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@dimen=\dimen128
+\pgfmath@count=\count105
+\pgfmath@box=\box31
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -563,57 +603,57 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count102
+\c@pgfmathroundto@lastzeros=\count106
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen125
-\pgf@picmaxx=\dimen126
-\pgf@picminy=\dimen127
-\pgf@picmaxy=\dimen128
-\pgf@pathminx=\dimen129
-\pgf@pathmaxx=\dimen130
-\pgf@pathminy=\dimen131
-\pgf@pathmaxy=\dimen132
-\pgf@xx=\dimen133
-\pgf@xy=\dimen134
-\pgf@yx=\dimen135
-\pgf@yy=\dimen136
-\pgf@zx=\dimen137
-\pgf@zy=\dimen138
+\pgf@picminx=\dimen129
+\pgf@picmaxx=\dimen130
+\pgf@picminy=\dimen131
+\pgf@picmaxy=\dimen132
+\pgf@pathminx=\dimen133
+\pgf@pathmaxx=\dimen134
+\pgf@pathminy=\dimen135
+\pgf@pathmaxy=\dimen136
+\pgf@xx=\dimen137
+\pgf@xy=\dimen138
+\pgf@yx=\dimen139
+\pgf@yy=\dimen140
+\pgf@zx=\dimen141
+\pgf@zy=\dimen142
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen139
-\pgf@path@lasty=\dimen140
+\pgf@path@lastx=\dimen143
+\pgf@path@lasty=\dimen144
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen141
-\pgf@shorten@start@additional=\dimen142
+\pgf@shorten@end@additional=\dimen145
+\pgf@shorten@start@additional=\dimen146
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box30
-\pgf@hbox=\box31
-\pgf@layerbox@main=\box32
-\pgf@picture@serial@count=\count103
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count107
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen143
+\pgflinewidth=\dimen147
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen144
-\pgf@pt@y=\dimen145
-\pgf@pt@temp=\dimen146
+\pgf@pt@x=\dimen148
+\pgf@pt@y=\dimen149
+\pgf@pt@temp=\dimen150
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -629,12 +669,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen147
+\pgfarrowsep=\dimen151
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen148
-\pgf@sys@shading@range@num=\count104
+\pgf@max=\dimen152
+\pgf@sys@shading@range@num=\count108
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -642,7 +682,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box33
+\pgfexternal@startupbox=\box35
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -658,15 +698,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box34
+\pgfnodeparttextbox=\box36
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen149
-\pgf@nodesepend=\dimen150
+\pgf@nodesepstart=\dimen153
+\pgf@nodesepend=\dimen154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -680,10 +720,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen151
-\pgffor@skip=\dimen152
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@iter=\dimen155
+\pgffor@skip=\dimen156
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -691,31 +731,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count105
-\pgfplotmarksize=\dimen153
+\pgf@plot@mark@count=\count109
+\pgfplotmarksize=\dimen157
 )
-\tikz@lastx=\dimen154
-\tikz@lasty=\dimen155
-\tikz@lastxsaved=\dimen156
-\tikz@lastysaved=\dimen157
-\tikzleveldistance=\dimen158
-\tikzsiblingdistance=\dimen159
-\tikz@figbox=\box35
-\tikz@figbox@bg=\box36
-\tikz@tempbox=\box37
-\tikz@tempbox@bg=\box38
-\tikztreelevel=\count106
-\tikznumberofchildren=\count107
-\tikznumberofcurrentchild=\count108
-\tikz@fig@count=\count109
+\tikz@lastx=\dimen158
+\tikz@lasty=\dimen159
+\tikz@lastxsaved=\dimen160
+\tikz@lastysaved=\dimen161
+\tikzleveldistance=\dimen162
+\tikzsiblingdistance=\dimen163
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count110
+\tikznumberofchildren=\count111
+\tikznumberofcurrentchild=\count112
+\tikz@fig@count=\count113
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count110
-\pgfmatrixcurrentcolumn=\count111
-\pgf@matrix@numberofcolumns=\count112
+\pgfmatrixcurrentrow=\count114
+\pgfmatrixcurrentcolumn=\count115
+\pgf@matrix@numberofcolumns=\count116
 )
-\tikz@expandcount=\count113
+\tikz@expandcount=\count117
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -725,20 +765,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count114
-\calc@Bcount=\count115
-\calc@Adimen=\dimen160
-\calc@Bdimen=\dimen161
-\calc@Askip=\skip43
-\calc@Bskip=\skip44
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count116
-\calc@Cskip=\skip45
-)
-\c@@todonotes@numberoftodonotes=\count117
+\c@@todonotes@numberoftodonotes=\count118
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymatrix.code.tex
@@ -747,11 +774,11 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
-)) (./[Grupo 4]Trabajo Práctico 1.aux
+)) (./[Grupo 4]Trabajo _Práctico_1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
-\openout1 = `"[Grupo 4]Trabajo Práctico 1.aux"'.
+\openout1 = `"[Grupo 4]Trabajo _Práctico_1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -768,32 +795,26 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen162
-\scratchbox=\box39
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen163
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count119
+\scratchdimen=\dimen164
+\scratchbox=\box41
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen165
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -831,6 +852,16 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box42
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
 
@@ -924,7 +955,7 @@ Overfull \hbox (304.4519pt too wide) in paragraph at lines 30--31
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./ITBA.png>])
-(./[Grupo 4]Trabajo Práctico 1.toc
+(./[Grupo 4]Trabajo _Práctico_1.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -935,7 +966,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
 )
 \tf@toc=\write4
-\openout4 = `"[Grupo 4]Trabajo Práctico 1.toc"'.
+\openout4 = `"[Grupo 4]Trabajo _Práctico_1.toc"'.
 
  [1]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -971,28 +1002,323 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
  (./Ejercicio_3/Ejercicio_3.tex)
-(./Ejercicio_3/Karnaugh/DEMUX/Salida_A.tex
 
-! LaTeX Error: File `Config.tex' not found.
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+<Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, id=22, 164.98639pt x 152.04103pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf  used on input
+ line 19.
+(pdftex.def)             Requested size: 164.98598pt x 152.04063pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf  used on input
+ line 19.
+(pdftex.def)             Requested size: 164.98598pt x 152.04063pt.
+<Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, id=25, page=1, 164.98639pt x 152.0410
+3pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
+n input line 19.
+(pdftex.def)             Requested size: 164.98598pt x 152.04063pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
+n input line 19.
+(pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
+[2
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.1 \input{Config.tex}
-                      ^^M
-*** (cannot \read from terminal in nonstop modes)
+]
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
+n input line 19.
+(pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
+n input line 19.
+(pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
+n input line 19.
+(pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
+ [3 <./Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>]
 
- 
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=55, 165.80746pt x 152.04103pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf  used on input
+ line 20.
+(pdftex.def)             Requested size: 165.80705pt x 152.04063pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf  used on input
+ line 20.
+(pdftex.def)             Requested size: 165.80705pt x 152.04063pt.
+<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=58, page=1, 165.80746pt x 152.0410
+3pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
+n input line 20.
+(pdftex.def)             Requested size: 165.80705pt x 152.04063pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
+n input line 20.
+(pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
+n input line 20.
+(pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
+n input line 20.
+(pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
+n input line 20.
+(pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
+[4 <./Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>]
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=75, 165.49329pt x 152.04103pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf  used on input
+ line 21.
+(pdftex.def)             Requested size: 165.49287pt x 152.04063pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf  used on input
+ line 21.
+(pdftex.def)             Requested size: 165.49287pt x 152.04063pt.
+<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=78, page=1, 165.49329pt x 152.0410
+3pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
+n input line 21.
+(pdftex.def)             Requested size: 165.49287pt x 152.04063pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
+n input line 21.
+(pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
+n input line 21.
+(pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
+n input line 21.
+(pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
+n input line 21.
+(pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
+[5 <./Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>]
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=96, 166.46591pt x 150.04054pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf  used on input
+ line 22.
+(pdftex.def)             Requested size: 166.46548pt x 150.04018pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf  used on input
+ line 22.
+(pdftex.def)             Requested size: 166.46548pt x 150.04018pt.
+<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=99, page=1, 166.46591pt x 150.0405
+4pt>
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
+n input line 22.
+(pdftex.def)             Requested size: 166.46548pt x 150.04018pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
+n input line 22.
+(pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
+n input line 22.
+(pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
+n input line 22.
+(pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
+File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
+n input line 22.
+(pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
+[6 <./Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>]
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=116, 170.64151pt x 205.94641pt
+>
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf  used on i
+nput line 23.
+(pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf  used on i
+nput line 23.
+(pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=119, page=1, 170.64151pt x 205
+.94641pt>
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
+ed on input line 23.
+(pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
+ed on input line 23.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
+ed on input line 23.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
+ed on input line 23.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
+ed on input line 23.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+[7 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>]
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=136, 170.64151pt x 205.94641pt
+>
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf  used on i
+nput line 24.
+(pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf  used on i
+nput line 24.
+(pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=139, page=1, 170.64151pt x 205
+.94641pt>
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
+ed on input line 24.
+(pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
+ed on input line 24.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
+ed on input line 24.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
+ed on input line 24.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
+ed on input line 24.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+[8 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>]
+(./Ejercicio_4/Informe_Eje4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+[9]
+<Ejercicio_4/Circuito.jpg, id=161, 551.661pt x 402.90524pt>
+File: Ejercicio_4/Circuito.jpg Graphic file (type jpg)
+<use Ejercicio_4/Circuito.jpg>
+Package pdftex.def Info: Ejercicio_4/Circuito.jpg  used on input line 146.
+(pdftex.def)             Requested size: 252.94499pt x 184.73616pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+
+ []
+
+) [10 <./Ejercicio_4/Circuito.jpg>] (./[Grupo 4]Trabajo _Práctico_1.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 13730 strings out of 494820
- 267531 string characters out of 6177789
- 327561 words of memory out of 5000000
- 16762 multiletter control sequences out of 15000+600000
+ 14861 strings out of 494820
+ 288400 string characters out of 6177789
+ 380262 words of memory out of 5000000
+ 17855 multiletter control sequences out of 15000+600000
  10106 words of font info for 35 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 64i,9n,64p,479b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 64i,18n,69p,480b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb>
+Output written on "[Grupo 4]Trabajo _Práctico_1.pdf" (12 pages, 396902 bytes).
+
+PDF statistics:
+ 193 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+

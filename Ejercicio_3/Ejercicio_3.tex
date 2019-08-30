@@ -2,4 +2,77 @@
 A continuación, se implementarán los circuitos pedidos en lenguaje verilog, comentando como fue su desarrollo e emplementación.
 \subsection{ENCODER de 4 entradas}
 
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c||c|c|c|c|}
+			\hline
+			\multicolumn{3}{|c||}{Entrada} & \multicolumn{4}{|c|}{Salida}\\
+			\hline
+			$D$ &	$C_1$ &	$C_0$ &	$O_3$ & $O_2$ & $o_1$ &$O_0$ \\
+			\hline
+            0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+            \hline
+            0 & 0 & 1 & 0 & 0 & 0 & 0 \\
+            \hline
+            0 & 1 & 0 & 0 & 0 & 0 & 0 \\
+            \hline
+            0 & 1 & 1 & 0 & 0 & 0 & 0 \\
+            \hline
+            1 & 0 & 0 & 1 & 0 & 0 & 0 \\
+            \hline
+            1 & 0 & 1 & 0 & 1 & 0 & 0 \\
+            \hline
+            1 & 1 & 0 & 0 & 0 & 1 & 0 \\
+            \hline
+            1 & 1 & 1 & 0 & 0 & 0 & 1\\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
 \subsection{DEMUX de 4 salidas}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c||c|c|}
+			\hline
+			\multicolumn{4}{|c||}{Entrada} & \multicolumn{2}{|c|}{Salida}\\
+			\hline
+			$D$ &	$C$ &	$B$ &	$A$ & $S_1$ & $S_0$ \\
+			\hline
+            0 & 0 & 0 & 0 & 0 & 0   \\
+            \hline
+            0 & 0 & 0 & 1 & 0 & 0   \\
+            \hline
+            0 & 0 & 1 & 0 & 0 & 1   \\
+            \hline
+            0 & 0 & 1 & 1 & 0 & 0   \\
+            \hline
+            0 & 1 & 0 & 0 & 1 & 0   \\
+            \hline
+            0 & 1 & 0 & 1 & 0 & 0   \\
+            \hline
+            0 & 1 & 1 & 0 & 0 & 0   \\
+            \hline
+            0 & 1 & 1 & 1 & 0 & 0   \\
+            \hline
+            1 & 0 & 0 & 0 & 1 & 1   \\
+            \hline
+            1 & 0 & 0 & 1 & 0 & 0   \\
+            \hline
+            1 & 0 & 1 & 0 & 0 & 0   \\
+            \hline
+            1 & 0 & 1 & 1 & 0 & 0  \\
+            \hline
+            1 & 1 & 0 & 0 & 0 & 0   \\
+            \hline
+            1 & 1 & 0 & 1 & 0 & 0   \\
+            \hline
+            1 & 1 & 1 & 0 & 0 & 0   \\
+            \hline
+            1 & 1 & 1 & 1 & 0 & 0  \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}

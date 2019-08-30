@@ -1,0 +1,111 @@
+% Karnaugh diagram
+% Author: Uwe Zimmermann
+
+
+\begin{document}
+  \begin{tikzpicture}[x=1cm,y=1cm]
+    \K[x bits = 3, y bits = 3, 
+       variable names = {$A_2$,$A_1$,$A_0$,$B_1$,$B_0$,$D$,}]
+    { % some random truth table...
+      000000,1,    010000,1,     100000,1,    110000,0,
+      000001,0,    010001,0,     100001,0,    110001,0,
+      000010,1,    010010,1,     100010,1,    110010,0,
+      000011,1,    010011,0,     100011,1,    110011,0,
+      000100,1,    010100,1,     100100,1,    110100,0,
+      000101,0,    010101,0,     100101,0,    110101,0,
+      000110,1,    010110,0,     100110,0,    110110,0,
+      000111,1,    010111,?,     100111,0,    110111,0,
+      001000,0,    011000,1,     101000,0,    111000,0,
+      001001,X,    011001,0,     101001,0,    111001,0,
+      001010,X,    011010,0,     101010,1,    111010,0,
+      001011,0,    011011,0,     101011,1,    111011,0,
+      001100,0,    011100,1,     101100,1,    111100,0,
+      001101,0,    011101,0,     101101,1,    111101,0,
+      001110,1,    011110,1,     101110,1,    111110,1,
+      001111,1,    011111,1,     101111,1,    111111,1,
+    }
+    \newcommand*{\myKG}[4][0.1]{\KG[x bits = 3,y bits = 3,group opacity = #1,
+                  #2]{#3}{#4}}
+    \myKG     {group color = green,  group distance=0.45}{100000}{000100}
+    \myKG     {group color = red,    group distance=0.45}{000111}{001110}
+    \myKG     {group color = blue,   group distance=0.40}{000110}{001010}
+    \myKG     {group color = olive,  group distance=0.35}{001111}{011110}
+    \myKG     {group color = olive,  group distance=0.35}{111111}{101110}
+    \myKG     {group color = brown,  group distance=0.35}{100010}{000011}
+    \myKG     {group color = black,  group distance=0.45}{011000}{010100}
+    \myKG     {group color = cyan,   group distance=0.45}{010010}{010010}
+    \myKG     {group color = teal,   group distance=0.45}{101100}{101110}
+    \myKG[0.0]{group color = yellow, group distance=0.40}{101111}{101011}
+    \myKG[0.0]{group color = yellow, group distance=0.45}{101010}{100011}
+    %=====================================================================
+    % in picture comments
+    %=====================================================================
+    \begin{scope}[latex-,red]
+      \draw (6.7,-1.55)  -- ++(2,1)  node[right] {grouping, opacity = 0};
+      \draw (6.5,-6.0)   -- ++(2,1)  node[right] {grouping, opacity = 0.1};
+      \draw (7.5,+0.95)  -- ++(2,1)  node[right] {variable \emph{indicator}};
+      \draw (7.3,-4.35)  -- ++(2,1)  node[right] {field \emph{address}};
+      \draw (7.25,+0.6)  -- ++(2,1)  node[right] {variable values};
+      \draw (-1.5,+1.3)  -- ++(-2,1) node[left]  {diagram \emph{label}};
+      \draw (-1.4,+0.35) -- ++(-2,1) node[left]  {variable names};
+      \draw (-0.15,-1.0) -- ++(-2,1) node[left]  {field \emph{value}};
+      \draw (5.05,1.2)   -- ++(2,1)  node[right] {indicator \emph{distance}};
+    \end{scope}
+    \draw [latex-latex,blue] (5,0.95) -- ++(0,0.45);
+    \path (3,-8) node[anchor = north, align = left] (eq1){%
+    $X = 
+       \ul{red}{$\ol{A_2}\,\ol{A_1}\,B_1\,B_0$}
+      +\ul{blue}{$\ol{A_2}\,\ol{A_1}\,B_0\,\ol{D}$}
+      +\ul{green}{$\ol{A_1}\,\ol{A_0}\,\ol{B_0}\,\ol{D}$}
+      +\ul{black}{$\ol{A_2}\,A_1\,\ol{B_0}\,\ol{D}$}
+      +\ul{olive}{$A_0\,{B_1}\,{B_0}$}
+      +\ul{brown}{$\ol{A_1}\,\ol{A_0}\,\ol{B_1}\,{B_0}$}
+      +\ul{yellow}{${A_2}\,\ol{A_1}\,{A_0}\,{B_0}$}
+      +\ul{cyan}{$\ol{A_2}\,{A_1}\,\ol{A_0}\,\ol{B_1}\,{B_0}\,\ol{D}$}
+    $};
+    \path(eq1.south) node[anchor = north] (t1) {or};
+    \path (t1.south) node[anchor = north, align = left] (eq2){%
+    $X =
+       \ul{red}{$\ol{A_2}\,\ol{A_1}\,B_1\,B_0$}
+      +\ul{blue}{$\ol{A_2}\,\ol{A_1}\,B_0\,\ol{D}$}
+      +\ul{green}{$\ol{A_1}\,\ol{A_0}\,\ol{B_0}\,\ol{D}$}
+      +\ul{black}{$\ol{A_2}\,A_1\,\ol{B_0}\,\ol{D}$}
+      +\ul{olive}{$A_0\,{B_1}\,{B_0}$}
+      +\ul{brown}{$\ol{A_1}\,\ol{A_0}\,\ol{B_1}\,{B_0}$}
+      +\ul{yellow}{${A_2}\,\ol{A_1}\,\ol{B_1}\,{B_0}$}
+      +\ul{cyan}{$\ol{A_2}\,{A_1}\,\ol{A_0}\,\ol{B_1}\,{B_0}\,\ol{D}$}
+    $};
+  \end{tikzpicture}
+  
+
+
+
+    
+%\begin{tikzpicture}[x=1cm,y=1cm]
+%    \K[x bits = 2, y bits = 1,
+%       variable names = {$S_1$,$S_0$,$D$,}]
+%    { % some random truth table...
+%      000,0,    
+%      001,0,   
+%      010,0,   
+%      011,0,       
+%      100,1, 
+%      101,0,
+%      110,0,
+% 	  111,0,
+%    }
+%    \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 1,group opacity = #1,
+%                  #2]{#3}{#4}}
+%    \myKG     {group color = green,  group distance=0.45}{100}{100}
+%    %=====================================================================
+%    % in picture comments
+%    %=====================================================================
+%
+%    \path (3,-8) node[anchor = north, align = left] (eq1){%
+%    $A = 
+%       \ul{red}{$\ol{S_1}\,\ol{S_0}\,D$} 
+%    $};
+%
+%  \end{tikzpicture}
+  
+\end{document}

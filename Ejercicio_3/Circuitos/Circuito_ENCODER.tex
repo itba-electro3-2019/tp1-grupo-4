@@ -1,0 +1,47 @@
+\documentclass[x11names,border=10pt,tikz]{standalone}
+\usepackage{circuitikz}
+\usetikzlibrary{decorations.pathreplacing,backgrounds}
+
+\begin{document}
+ 
+ \begin{circuitikz} 
+ 
+\draw
+%(0,2)         node (myand1) [xshift=1cm,and port]           {}
+%(myand1.out)  node      [anchor=south west]             {\it A}
+(0,4)         node (myand2) [xshift=1cm,and port]           {}
+(myand2.out)  node      [anchor=south west]             {\it B}
+(0,6)         node (myand3) [xshift=1cm,and port]           {}
+(myand3.out)  node      [anchor=south west]             {\it C}
+(0,8)         node (myand4) [xshift=1cm,and port]           {}
+(myand4.out)  node      [anchor=south west]             {\it D}
+%(myand1.in 1) node (A1)     [anchor=east,xshift=-1cm]           {A}
+%(myand1.in 2) node (B1)     [anchor=east,xshift=-1cm,yshift=-.7cm]  {B} 
+%(0,0)         node (mynot1) [not port, scale=.5]            {} 
+%(mynot1.out)  node      [anchor=south west]             {$\bar{B}$}
+%(2.5,-.280)   node (myor1)  [or port]                   {}
+%(myor1.out)   node      [anchor=south west,xshift=.05cm]        {$\bar{B}\texttt{+}C$}
+%(4,1.72)      node (myor2)  [or port]                   {}
+%(myor1.in 2)  node (C1)     [anchor=east,xshift=-2.5cm]         {C}
+%(myor2.out)   node      [anchor=south west]             {{\it A.B}\texttt{+}$(\bar{B}$\texttt{+}$C)$};
+%
+%\draw (myor2.out) -- ++(1cm,0);
+%\draw (myand1.in 2) |- (mynot1.in);
+%\draw (mynot1.out) -| (myor1.in 1);
+%\draw (myand1.out) -- (myor2.in 1);
+%\draw (myor1.out) -- (myor2.in 2);
+%\draw (myand1.in 1) -- (A1);
+%\foreach \Point in {(A1),(B1), (C1)}{
+%    \node [xshift=.2cm] at \Point {\textbullet};
+%}
+%\node [xshift=1.25cm] at (B1) {$\bullet$};
+%\node [xshift=1cm] at (myor2.out) {$\bullet$};
+%\draw (B1) -- ++(1.25cm,0);
+%\draw (myor1.in 2) -- (C1);
+\draw (myand1.out) -- (2,2);
+\draw (myand2.out) -- (2,4);
+\draw (myand3.out) -- (2,6);
+\draw (myand4.out) -- (2,8);
+
+
+;\end{circuitikz}

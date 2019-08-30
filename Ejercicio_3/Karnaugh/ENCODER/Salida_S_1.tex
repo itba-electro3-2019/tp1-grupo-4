@@ -1,0 +1,45 @@
+\input{Config.tex}
+\begin{document}
+
+%Mapa de Karnaugh salida A
+
+    \begin{tikzpicture}[x=1cm,y=1cm]
+    \K[x bits = 2, y bits = 2, label={$S_1$},
+       variable names = {$A$,$B$,$C$,$D$,}]
+    { % some random truth table...
+      0000,0,    
+      0001,0,   
+      0010,0,   
+      0011,0,       
+      0100,1, 
+      0101,0,
+      0110,0,
+ 	  0111,0,
+ 	  1000,1,    
+      1001,0,   
+      1010,0,   
+      1011,0,       
+      1100,0, 
+      1101,0,
+      1110,0,
+ 	  1111,0,
+    }
+    \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+                  #2]{#3}{#4}}
+    \myKG     {group color = blue,  group distance=0.35}{0100}{0100}
+    \myKG     {group color = blue,  group distance=0.35}{1000}{1000}
+
+    %=====================================================================
+    % in picture comments
+    %=====================================================================
+
+
+    \path (1,-4) node[anchor = north, align = left] (eq1){%
+    $S_0 = 
+       \ul{blue}{$\ol{A}\,B\,\ol{C}\,\ol{D}\,$}     
+       +\ul{blue}{$A\,\ol{B}\,\ol{C}\,\ol{D}$}
+    $};
+  \end{tikzpicture}
+  
+  
+\end{document}

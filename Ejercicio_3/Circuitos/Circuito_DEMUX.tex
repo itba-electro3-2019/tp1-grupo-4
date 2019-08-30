@@ -1,0 +1,138 @@
+\documentclass[x11names,border=10pt,tikz]{standalone}
+\usepackage{circuitikz}
+%\usetikzlibrary{decorations.pathreplacing,backgrounds}
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/]
+
+\begin{document}
+
+%\begin{circuitikz} \draw
+%
+%(0,0) node[and port] (myand1) {}
+%(myand1.out) node[anchor=west] {A}
+%
+%(0,2) node[and port] (myand2) {}
+%(myand2.out) node[anchor=west] {B}
+%
+%(0,4) node[and port] (myand3) {}
+%(myand3.out) node[anchor=west] {C}
+%
+%(0,6) node[and port] (myand4) {}
+%(myand4.out) node[anchor=west] {D}
+%
+%(-4,6.25) -- (myand4.in)
+%(-2,6.25) -- (-2,0)
+%(-2,4.25) -- (myand3.in)
+%(-2,2.25) -- (myand2.in)
+%(-2,0.25) -- (myand1.in)
+%
+%(4,0) node[ocirc]{}
+%(4,2) node[ocirc]{}
+%
+%
+%(2,1) node[xnor port] (myxnor) {}
+%
+%(myand1.out) -| (myxnor.in 1)
+%
+%(myand2.out) -| (myxnor.in 2)
+%
+% ;\end{circuitikz}
+ 
+ \begin{circuitikz} 
+ 
+\draw
+(0,2)         node (myand1) [xshift=1cm,and port]           {}
+(myand1.out)  node      [anchor=south west]             {\it $D=IS_1S_0$}
+(0,4)         node (myand2) [xshift=1cm,and port]           {}
+(myand2.out)  node      [anchor=south west]             {\it $C=I\bar{S_1}S_0$}
+(0,6)         node (myand3) [xshift=1cm,and port]           {}
+(myand3.out)  node      [anchor=south west]             {\it $B=IS_1\bar{S_0}$}
+(0,8)         node (myand4) [xshift=1cm,and port]           {}
+(myand4.out)  node      [anchor=south west]             {\it $A=I\bar{S_1}\bar{S_0}$}
+
+(-4,4)         node (mynot1) [xshift=1cm ,not port, scale=.75]            {}
+(mynot1.out)  node      [anchor=south west]             {$\bar{S_1}$} 
+(-4,6)         node (mynot2) [xshift=1cm ,not port, scale=.75]            {} 
+(mynot2.out)  node      [anchor=south west]             {$\bar{S_0}$} 
+
+
+(myand4.in 1) node (I1)     [anchor=east,xshift=-4.75cm]           {I}
+(mynot1.in) node (S1)     [anchor=east,xshift=-1.5cm,yshift=-.7cm]  {$S_1$}
+(mynot2.in) node (S0)     [anchor=east,xshift=-1.5cm,yshift=-.7cm]  {$S_0$}
+
+
+\node [xshift=1cm] at (myand4.out) {$\bullet$}
+\node [xshift=1cm] at (myand3.out) {$\bullet$}
+\node [xshift=1cm] at (myand2.out) {$\bullet$}
+\node [xshift=1cm] at (myand1.out) {$\bullet$}
+
+%\draw (myand4.out) -- ++(1cm,0);
+%\draw (myand3.out) -- ++(1cm,0);
+%\draw (myand2.out) -- ++(1cm,0);
+%\draw (myand1.out) -- ++(1cm,0);
+%\draw (myand1.out) -- (2,2);
+
+
+%(myand1.in 1) node (A1)     [anchor=east,xshift=-1cm]           {D}
+%(myand1.in 2) node (B1)     [anchor=east,xshift=-1cm,yshift=-.7cm]  {B} 
+%(0,0)         node (mynot1) [not port, scale=.5]            {} 
+%(mynot1.out)  node      [anchor=south west]             {$\bar{B}$}
+%(2.5,-.280)   node (myor1)  [or port]                   {}
+%(myor1.out)   node      [anchor=south west,xshift=.05cm]        {$\bar{B}\texttt{+}C$}
+%(4,1.72)      node (myor2)  [or port]                   {}
+%(myor1.in 2)  node (C1)     [anchor=east,xshift=-2.5cm]         {C}
+%(myor2.out)   node      [anchor=south west]             {{\it A.B}\texttt{+}$(\bar{B}$\texttt{+}$C)$};
+%
+%\draw (myor2.out) -- ++(1cm,0);
+%\draw (myand1.in 2) |- (mynot1.in);
+%\draw (mynot1.out) -| (myor1.in 1);
+%\draw (myand1.out) -- (myor2.in 1);
+%\draw (myor1.out) -- (myor2.in 2);
+%\draw (myand1.in 1) -- (A1);
+%\foreach \Point in {(A1),(B1), (C1)}{
+%    \node [xshift=.2cm] at \Point {\textbullet};
+%}
+%\node [xshift=1.25cm] at (B1) {$\bullet$};
+%\node [xshift=1cm] at (myor2.out) {$\bullet$};
+%\draw (B1) -- ++(1.25cm,0);
+%\draw (myor1.in 2) -- (C1);
+
+%\draw (myand1.out) -- (2,2);
+%\draw (myand2.out) -- (2,4);
+%\draw (myand3.out) -- (2,6);
+%\draw (myand4.out) -- (2,8);
+
+
+;\end{circuitikz}
+%
+% \begin{circuitikz} 
+%\draw
+%(0,2)         node (myand1) [xshift=1cm,and port]           {}
+%(myand1.out)  node      [anchor=south west]             {\it A.B}
+%(myand1.in 1) node (A1)     [anchor=east,xshift=-1cm]           {A}
+%(myand1.in 2) node (B1)     [anchor=east,xshift=-1cm,yshift=-.7cm]  {B} 
+%(0,0)         node (mynot1) [not port, scale=.5]            {} 
+%(mynot1.out)  node      [anchor=south west]             {$\bar{B}$}
+%(2.5,-.280)   node (myor1)  [or port]                   {}
+%(myor1.out)   node      [anchor=south west,xshift=.05cm]        {$\bar{B}\texttt{+}C$}
+%(4,1.72)      node (myor2)  [or port]                   {}
+%(myor1.in 2)  node (C1)     [anchor=east,xshift=-2.5cm]         {C}
+%(myor2.out)   node      [anchor=south west]             {{\it A.B}\texttt{+}$(\bar{B}$\texttt{+}$C)$};
+%
+%\draw (myor2.out) -- ++(1cm,0);
+%\draw (myand1.in 2) |- (mynot1.in);
+%\draw (mynot1.out) -| (myor1.in 1);
+%\draw (myand1.out) -- (myor2.in 1);
+%\draw (myor1.out) -- (myor2.in 2);
+%\draw (myand1.in 1) -- (A1);
+%\foreach \Point in {(A1),(B1), (C1)}{
+%    \node [xshift=.2cm] at \Point {\textbullet};
+%}
+%\node [xshift=1.25cm] at (B1) {$\bullet$};
+%\node [xshift=1cm] at (myor2.out) {$\bullet$};
+%\draw (B1) -- ++(1.25cm,0);
+%\draw (myor1.in 2) -- (C1);
+%\end{circuitikz}
+
+ 
+ \end{document}
