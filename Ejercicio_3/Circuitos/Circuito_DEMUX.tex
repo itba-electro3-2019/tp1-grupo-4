@@ -58,13 +58,15 @@
 
 (myand4.in 1) node (I1)     [anchor=east,xshift=-4.75cm]           {I}
 (mynot1.in) node (S1)     [anchor=east,xshift=-1.5cm,yshift=-.7cm]  {$S_1$}
-(mynot2.in) node (S0)     [anchor=east,xshift=-1.5cm,yshift=-.7cm]  {$S_0$}
+(mynot2.in) node (S0)     [anchor=east,xshift=-1.5cm,yshift=-.7cm]  {$S_0$};
 
 
-\node [xshift=1cm] at (myand4.out) {$\bullet$}
-\node [xshift=1cm] at (myand3.out) {$\bullet$}
-\node [xshift=1cm] at (myand2.out) {$\bullet$}
-\node [xshift=1cm] at (myand1.out) {$\bullet$}
+\draw (5,2) node[circ]{};
+
+%\draw \node [xshift=1cm] at (myand4.out) {$\bullet$};
+%\draw \node [xshift=1cm] at (myand3.out) {$\bullet$};
+%\draw \node [xshift=1cm] at (myand2.out) {$\bullet$};
+%\draw \node [xshift=1cm] at (myand1.out) {$\bullet$};
 
 %\draw (myand4.out) -- ++(1cm,0);
 %\draw (myand3.out) -- ++(1cm,0);
