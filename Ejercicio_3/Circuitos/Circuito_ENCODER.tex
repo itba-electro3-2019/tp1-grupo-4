@@ -1,47 +1,197 @@
-\documentclass[x11names,border=10pt,tikz]{standalone}
-\usepackage{circuitikz}
-\usetikzlibrary{decorations.pathreplacing,backgrounds}
+\input{Config.tex}
+
+%\documentclass{standalone}
+%\usepackage{circuitikz}
 
 \begin{document}
+
  
- \begin{circuitikz} 
+\begin{circuitikz}[scale=1]
  
-\draw
-%(0,2)         node (myand1) [xshift=1cm,and port]           {}
-%(myand1.out)  node      [anchor=south west]             {\it A}
-(0,4)         node (myand2) [xshift=1cm,and port]           {}
-(myand2.out)  node      [anchor=south west]             {\it B}
-(0,6)         node (myand3) [xshift=1cm,and port]           {}
-(myand3.out)  node      [anchor=south west]             {\it C}
-(0,8)         node (myand4) [xshift=1cm,and port]           {}
-(myand4.out)  node      [anchor=south west]             {\it D}
-%(myand1.in 1) node (A1)     [anchor=east,xshift=-1cm]           {A}
-%(myand1.in 2) node (B1)     [anchor=east,xshift=-1cm,yshift=-.7cm]  {B} 
-%(0,0)         node (mynot1) [not port, scale=.5]            {} 
-%(mynot1.out)  node      [anchor=south west]             {$\bar{B}$}
-%(2.5,-.280)   node (myor1)  [or port]                   {}
-%(myor1.out)   node      [anchor=south west,xshift=.05cm]        {$\bar{B}\texttt{+}C$}
-%(4,1.72)      node (myor2)  [or port]                   {}
-%(myor1.in 2)  node (C1)     [anchor=east,xshift=-2.5cm]         {C}
-%(myor2.out)   node      [anchor=south west]             {{\it A.B}\texttt{+}$(\bar{B}$\texttt{+}$C)$};
+ 
+ %compuertas AND
+\draw (0,2) node[american and port,number inputs=4] (myand1) {}
+(myand1.out)  node      [anchor=south west,xshift=0.5cm]        {\it $A\bar{B}\bar{C}\bar{D}$}
+
+ 
+(0,4) node[american and port,number inputs=4] (myand2) {}
+(myand2.out)  node      [anchor=south west,xshift=0.5cm]    {\it $\bar{A}B\bar{C}\bar{D}$}      
+
+(0,6) node[american and port,number inputs=4] (myand3) {}
+(myand3.out)  node      [anchor=south west,xshift=0.5cm]         {\it $\bar{A}\bar{B}C\bar{D}$}
+(0,8) node[american and port,number inputs=4] (myand4) {}
+(myand4.out)  node      [anchor=south west,xshift=0.5cm]         {\it $\bar{A}\bar{B}\bar{C}D$}
+%compuertas OR
+
+(3,7) node[american or port,number inputs=2] (myor1) {}
+(myor1.out)  node      [anchor=south west,xshift=1cm]             {\it $S_0$}
+ 
+(3,3) node[american or port,number inputs=2] (myor2) {}
+(myor2.out)  node      [anchor=south west,xshift=1cm]         {\it $S_1$}
+
+(3.125,7) -- (3.5,7)
+(3.125,3) -- (3.5,3)
+
+%conexiones or1
+(1.5,8) -- (1.5,7.275)
+(1.5,7.275) -- (myor1.in 1)
+
+(1.5,6) -- (1.5,6.725)
+(1.5,6.725) -- (myor1.in 2)
+
+%conexiones or2
+(1.5,4) -- (1.5,3.275)
+(1.5,3.275) -- (myor2.in 1)
+
+(1.5,2) -- (1.5,2.725)
+(1.5,2.725) -- (myor2.in 2)
+
+%compuertas NOT
+
+(-6,8) node[american not port, scale=0.5] (mynot1) {}
+(mynot1.out)  node      [anchor=south west,xshift=-0.4cm]         {$\bar{D}$}
+
+(-6,6) node[american not port, scale=0.5] (mynot2) {}
+(mynot2.out)  node      [anchor=south west,xshift=-0.4cm]         {$\bar{C}$}
+
+(mynot2.in) node (A)     [anchor=east,xshift=-1.75cm]           {$C$}
+(mynot1.in) node (B)     [anchor=east,xshift=-1.75cm]           {$D$}
+
+(-6,4) node[american not port, scale=0.5] (mynot3) {}
+(mynot3.out)  node      [anchor=south west,xshift=-0.4cm]         {$\bar{B}$}
+
+(-6,2) node[american not port, scale=0.5] (mynot4) {}
+(mynot4.out)  node      [anchor=south west,xshift=-0.4cm]         {$\bar{A}$}
+
+(mynot3.in) node (B)     [anchor=east,xshift=-1.75cm]           {$B$}
+(mynot4.in) node (A)     [anchor=east,xshift=-1.75cm]           {$A$}
+
+
+(0,2) -- (1.5,2)
+(0,4) -- (1.5,4)
+(0,6) -- (1.5,6)
+(0,8) -- (1.5,8)
+
+%%% CONEXIONES
+
+(-8,2) -- (mynot4.in)
+(-8,4) -- (mynot3.in)
+(-8,6) -- (mynot2.in)
+(-8,8) -- (mynot1.in)
+
+(-7,2) -- (-7,1.595)
+(-7,1.595) -- (myand1.in 4)
+
+(-7,4) -- (-7,3.595)
+(-7,3.595) -- (myand2.in 4)
+
+(-7,6) -- (-7,5.595)
+(-7,5.595) -- (myand3.in 4)
+
+(-7,8) -- (-7,7.595)
+(-7,7.595) -- (myand4.in 4)
+
+%CONEXIONES NEGADAS
+%!D
+(mynot1.out) -- (-3,8)
+(-3,1.85) -- (-3,8)
+(-3,1.85) -- (myand1.in 3)
+(-3,3.85) -- (myand2.in 3)
+(-3,5.85) -- (myand3.in 3)
+
+
+%!C
+(mynot2.out) -- (-2.5,6)
+(-2.5,2.15) -- (-2.5,8.15)
+(-2.5,2.15) -- (myand1.in 2)
+(-2.5,4.15) -- (myand2.in 2)
+(-2.5,8.15) -- (myand4.in 2)
+
+%!B
+(mynot3.out) -- (-3.5,4)
+(-3.5,2.425) -- (-3.5,7.865)
+(-3.5,2.425) -- (myand1.in 1)
+(-3.5,6.15) -- (myand3.in 2)
+(-3.5,7.865) -- (myand4.in 3)
+
+%!A
+(mynot4.out) -- (-4,2)
+(-4,4.425) -- (myand2.in 1)
+(-4,6.425) -- (myand3.in 1)
+(-4,8.435) -- (myand4.in 1)
+(-4,8.435) -- (-4,2)
+%(-3.5,2.425) -- (myand1.in 1)
+%(-3.5,6.15) -- (myand3.in 2)
+%(-3.5,7.865) -- (myand4.in 3)
+
+%NODES
+(-4,4.425) node[circ]{}
+(-4,6.425) node[circ]{}
+(-3,3.85) node[circ]{}
+(-3,5.85) node[circ]{}
+(-2.5,4.15) node[circ]{}
+(-2.5,2.15) node[circ]{}
+(-2.5,6) node[circ]{}
+(-3.5,6.15) node[circ]{}
+(-3.5,4) node[circ]{}
+
+
+
+
+
+%(myand4.in 1) node (I1)     [anchor=east,xshift=-4.75cm]           {I}
 %
-%\draw (myor2.out) -- ++(1cm,0);
-%\draw (myand1.in 2) |- (mynot1.in);
-%\draw (mynot1.out) -| (myor1.in 1);
-%\draw (myand1.out) -- (myor2.in 1);
-%\draw (myor1.out) -- (myor2.in 2);
-%\draw (myand1.in 1) -- (A1);
-%\foreach \Point in {(A1),(B1), (C1)}{
-%    \node [xshift=.2cm] at \Point {\textbullet};
-%}
-%\node [xshift=1.25cm] at (B1) {$\bullet$};
-%\node [xshift=1cm] at (myor2.out) {$\bullet$};
-%\draw (B1) -- ++(1.25cm,0);
-%\draw (myor1.in 2) -- (C1);
-\draw (myand1.out) -- (2,2);
-\draw (myand2.out) -- (2,4);
-\draw (myand3.out) -- (2,6);
-\draw (myand4.out) -- (2,8);
+%
+%(I1) -- (myand4.in 1)
+%(S1) -- (mynot1.in)
+%(S0) -- (mynot2.in)
+%(mynot1.out) -- (myand2.in 2)
+%(mynot2.out) -- (myand3.in 2)
+%
+%(-2,2.375) -- (-2,8.375)
+%(-2,6.375) -- (myand3.in 1)
+%(-2,4.375) -- (myand2.in 1)
+%(-2,2.375) -- (myand1.in 1)
+%
+%(-3,6) -- (-3,8)
+%(-3,8) -- (myand4.in 2)
+%
+%(-2.5,4) -- (-2.5,7.625)
+%(-2.5,7.625) -- (myand4.in 3)
+%
+%
+%(-2,6.375) node[circ]{}
+%(-2,4.375) node[circ]{}
+%(-3,6) node[circ]{}
+%(-5,4) node[circ]{}
+%(-5,6) node[circ]{}
+%(-2.25,3.625) node[circ]{}
+%
+%(-2.75,3.5) node[circ]{}
+%
+%(-2.5,4) node[circ]{}
+%(-2,8.375) node[circ]{}
+%
+%(-5,4) -- (-5,3.5)
+%(-5,3.5) -- (-2.75,3.5)
+%(-2.75,3.5) -- (-2.75,5.625)
+%(-2.75,5.625) -- (myand3.in 3)
+%
+%
+%(-2.75,3.5) -- (-2.75,1.625)
+%(-2.75,1.625) -- (myand1.in 3)
+%
+%
+%(-5,6) -- (-5,5.5)
+%(-5,5.5) -- (-2.25,5.5)
+%(-2.25,5.5) -- (-2.25,2)
+%(-2.25,2) -- (myand1.in 2)
+%(-2.25,3.625) -- (myand2.in 3)
+;
+
 
 
 ;\end{circuitikz}
+
+
+ \end{document}

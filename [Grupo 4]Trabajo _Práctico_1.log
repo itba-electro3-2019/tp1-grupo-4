@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  30 AUG 2019 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  31 AUG 2019 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,18 +788,18 @@ LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `"[Grupo 4]Trabajo _Práctico_1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -870,8 +870,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1010,283 +1010,330 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./Ejercicio_3/Ejercicio_3.tex)
-
-Package pdfpages Warning: Option `page' is unknow to \includepdf.
-(pdfpages)                Did you mean `pages'? (Note the `s'!)
-(pdfpages)                OK, I'll proceed as if it were `pages'.
-
+ (./Ejercicio_3/Ejercicio_3.tex
 <Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, id=21, 164.98639pt x 152.04103pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf  used on input
- line 19.
+ line 5.
 (pdftex.def)             Requested size: 164.98598pt x 152.04063pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf  used on input
- line 19.
+ line 5.
 (pdftex.def)             Requested size: 164.98598pt x 152.04063pt.
 <Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, id=24, page=1, 164.98639pt x 152.0410
 3pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
-n input line 19.
+n input line 5.
 (pdftex.def)             Requested size: 164.98598pt x 152.04063pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
-n input line 19.
+n input line 5.
 (pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
+
 [2
 
 ]
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
-n input line 19.
+n input line 5.
 (pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
-n input line 19.
+n input line 5.
 (pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf , page1 used o
-n input line 19.
+n input line 5.
 (pdftex.def)             Requested size: 601.09766pt x 553.93356pt.
  [3 <./Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>]
-
-Package pdfpages Warning: Option `page' is unknow to \includepdf.
-(pdfpages)                Did you mean `pages'? (Note the `s'!)
-(pdfpages)                OK, I'll proceed as if it were `pages'.
-
-<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=54, 165.80746pt x 152.04103pt>
+<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=52, 165.80746pt x 152.04103pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf  used on input
- line 20.
+ line 6.
 (pdftex.def)             Requested size: 165.80705pt x 152.04063pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf  used on input
- line 20.
+ line 6.
 (pdftex.def)             Requested size: 165.80705pt x 152.04063pt.
-<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=57, page=1, 165.80746pt x 152.0410
+<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=55, page=1, 165.80746pt x 152.0410
 3pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
-n input line 20.
+n input line 6.
 (pdftex.def)             Requested size: 165.80705pt x 152.04063pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
-n input line 20.
+n input line 6.
 (pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
-n input line 20.
+n input line 6.
 (pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
-n input line 20.
+n input line 6.
 (pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf , page1 used o
-n input line 20.
+n input line 6.
 (pdftex.def)             Requested size: 600.42818pt x 550.57658pt.
-[4 <./Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>]
-
-Package pdfpages Warning: Option `page' is unknow to \includepdf.
-(pdfpages)                Did you mean `pages'? (Note the `s'!)
-(pdfpages)                OK, I'll proceed as if it were `pages'.
-
-<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=74, 165.49329pt x 152.04103pt>
+ [4 <./Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>]
+<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=72, 165.49329pt x 152.04103pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf  used on input
- line 21.
+ line 7.
 (pdftex.def)             Requested size: 165.49287pt x 152.04063pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf  used on input
- line 21.
+ line 7.
 (pdftex.def)             Requested size: 165.49287pt x 152.04063pt.
-<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=77, page=1, 165.49329pt x 152.0410
+<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=75, page=1, 165.49329pt x 152.0410
 3pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
-n input line 21.
+n input line 7.
 (pdftex.def)             Requested size: 165.49287pt x 152.04063pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
-n input line 21.
+n input line 7.
 (pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
-n input line 21.
+n input line 7.
 (pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
-n input line 21.
+n input line 7.
 (pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf , page1 used o
-n input line 21.
+n input line 7.
 (pdftex.def)             Requested size: 599.29045pt x 550.57658pt.
-[5 <./Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>]
-
-Package pdfpages Warning: Option `page' is unknow to \includepdf.
-(pdfpages)                Did you mean `pages'? (Note the `s'!)
-(pdfpages)                OK, I'll proceed as if it were `pages'.
-
-<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=94, 166.46591pt x 150.04054pt>
+ [5 <./Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>]
+<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=92, 166.46591pt x 150.04054pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf  used on input
- line 22.
+ line 8.
 (pdftex.def)             Requested size: 166.46548pt x 150.04018pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf  used on input
- line 22.
+ line 8.
 (pdftex.def)             Requested size: 166.46548pt x 150.04018pt.
-<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=97, page=1, 166.46591pt x 150.0405
+<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=95, page=1, 166.46591pt x 150.0405
 4pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
-n input line 22.
+n input line 8.
 (pdftex.def)             Requested size: 166.46548pt x 150.04018pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
-n input line 22.
+n input line 8.
 (pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
-n input line 22.
+n input line 8.
 (pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
-n input line 22.
+n input line 8.
 (pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf , page1 used o
-n input line 22.
+n input line 8.
 (pdftex.def)             Requested size: 599.18277pt x 540.06084pt.
-[6 <./Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>]
-
-Package pdfpages Warning: Option `page' is unknow to \includepdf.
-(pdfpages)                Did you mean `pages'? (Note the `s'!)
-(pdfpages)                OK, I'll proceed as if it were `pages'.
-
-<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=115, 170.64151pt x 205.94641pt
+ [6 <./Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>]
+<Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, id=113, 257.14468pt x 204.42172pt>
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf  used on inpu
+t line 10.
+(pdftex.def)             Requested size: 257.14404pt x 204.4212pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf  used on inpu
+t line 10.
+(pdftex.def)             Requested size: 257.14404pt x 204.4212pt.
+<Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, id=116, page=1, 257.14468pt x 204.42
+172pt>
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 10.
+(pdftex.def)             Requested size: 257.14404pt x 204.4212pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 10.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 10.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 10.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 10.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+ [7 <./Ejercicio_3/Circuitos/Circuito_DEMUX.pdf>]
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=130, 170.64151pt x 205.94641pt
 >
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf  used on i
-nput line 23.
+nput line 40.
 (pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf  used on i
-nput line 23.
+nput line 40.
 (pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
-<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=118, page=1, 170.64151pt x 205
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=133, page=1, 170.64151pt x 205
 .94641pt>
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
-ed on input line 23.
+ed on input line 40.
 (pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
-ed on input line 23.
+ed on input line 40.
+(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
+ [8]
+File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
+<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
+ed on input line 40.
 (pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
-ed on input line 23.
+ed on input line 40.
 (pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
-ed on input line 23.
+ed on input line 40.
 (pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
-File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
-<use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, page 1>
-Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf , page1 us
-ed on input line 23.
-(pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
-[7 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>]
-
-Package pdfpages Warning: Option `page' is unknow to \includepdf.
-(pdfpages)                Did you mean `pages'? (Note the `s'!)
-(pdfpages)                OK, I'll proceed as if it were `pages'.
-
-<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=135, 170.64151pt x 205.94641pt
+ [9 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>]
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=155, 170.64151pt x 205.94641pt
 >
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf  used on i
-nput line 24.
+nput line 41.
 (pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf  used on i
-nput line 24.
+nput line 41.
 (pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
-<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=138, page=1, 170.64151pt x 205
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=158, page=1, 170.64151pt x 205
 .94641pt>
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
-ed on input line 24.
+ed on input line 41.
 (pdftex.def)             Requested size: 170.64108pt x 205.9459pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
-ed on input line 24.
+ed on input line 41.
 (pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
-ed on input line 24.
+ed on input line 41.
 (pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
-ed on input line 24.
+ed on input line 41.
 (pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, page 1>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf , page1 us
-ed on input line 24.
+ed on input line 41.
 (pdftex.def)             Requested size: 599.75903pt x 723.84631pt.
-[8 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>]
-(./Ejercicio_4/Informe_Eje4.tex
+ [10 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>]
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf  used on inpu
+t line 43.
+(pdftex.def)             Requested size: 257.14404pt x 204.4212pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf  used on inpu
+t line 43.
+(pdftex.def)             Requested size: 257.14404pt x 204.4212pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 43.
+(pdftex.def)             Requested size: 257.14404pt x 204.4212pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 43.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 43.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 43.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
+<use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, page 1>
+Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf , page1 used 
+on input line 43.
+(pdftex.def)             Requested size: 597.8395pt x 475.26308pt.
+ [11]) (./Ejercicio_4/Informe_Eje4.tex
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[9]
-<Ejercicio_4/Circuito.jpg, id=159, 551.661pt x 402.90524pt>
+[13]
+<Ejercicio_4/Circuito.jpg, id=189, 551.661pt x 402.90524pt>
 File: Ejercicio_4/Circuito.jpg Graphic file (type jpg)
 <use Ejercicio_4/Circuito.jpg>
 Package pdftex.def Info: Ejercicio_4/Circuito.jpg  used on input line 146.
@@ -1296,7 +1343,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--148
 
  []
 
-) [10 <./Ejercicio_4/Circuito.jpg>] (./[Grupo 4]Trabajo _Práctico_1.aux
+) [14 <./Ejercicio_4/Circuito.jpg>] (./[Grupo 4]Trabajo _Práctico_1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -1305,10 +1352,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14983 strings out of 494820
- 289828 string characters out of 6177789
- 381639 words of memory out of 5000000
- 17962 multiletter control sequences out of 15000+600000
+ 14993 strings out of 494820
+ 290261 string characters out of 6177789
+ 390624 words of memory out of 5000000
+ 17969 multiletter control sequences out of 15000+600000
  19918 words of font info for 67 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  64i,18n,69p,480b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1325,11 +1372,11 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on "[Grupo 4]Trabajo _Práctico_1.pdf" (11 pages, 411728 bytes).
+Output written on "[Grupo 4]Trabajo _Práctico_1.pdf" (15 pages, 414575 bytes).
 
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 227 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

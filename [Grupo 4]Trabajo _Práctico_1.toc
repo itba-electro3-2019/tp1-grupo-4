@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Ejercicio 3 - Implementaci\IeC {\'o}n de m\IeC {\'o}dulos en verilog}{2}
-\contentsline {subsection}{\numberline {1.1}ENCODER de 4 entradas}{2}
-\contentsline {subsection}{\numberline {1.2}DEMUX de 4 salidas}{2}
-\contentsline {section}{\numberline {2}Ejercicio 4 - Conversor a codigo de Gray}{9}
+\contentsline {subsection}{\numberline {1.1}DEMUX de 4 salidas}{2}
+\contentsline {subsection}{\numberline {1.2}ENCODER de 4 entradas}{8}
+\contentsline {section}{\numberline {2}Ejercicio 4 - Conversor a codigo de Gray}{12}
