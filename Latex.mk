@@ -15,7 +15,7 @@ OPTIONS =-synctex=1 -interaction=nonstopmode -file-line-error -pdf
 #Others is all the file that a compilation give but are not important adn are going to be erase later by rm command
 OTHER = *~ *.aux *.dvi *.toc *.bbl *.blg *.gz *.out *.thm *.ps *.idx *.ilg *.ind *.log *.fdb_latexmk *.fls
 
-informe: $(TARGET).tex
+informe: 
 	$(COMPILER) $(OPTIONS) $(TARGET).tex
 	rm -rf $(OTHER)
 clean:	
