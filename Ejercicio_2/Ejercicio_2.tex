@@ -1,0 +1,51 @@
+\section{Algebra booleana y compuertas lógicas}
+
+En el álgebra booleana se conoce como término canónico de una función lógica a todo producto o suma en la cual aparecen todas las variables en su forma directa o inversa. Cualquier función lógica puede expresarse de forma canónica utilizando los conceptos de min y maxtérminos. El primero, se refiere a todas las filas para las cuales la función lógica es igual a uno en la tabla de verdad  correspondiente, mientras que el segundo se corresponde con todos los valores para los cuales la función es igual a cero. 
+
+En el siguiente ejercicio se simplificarán dos funciones lógicas aplicando ambos conceptos. Luego se utilizarán mapas de Karnaugh para llegar a la misma expresión.A continuación se dibujará el circuito lógico resultante utilizando compuertas AND, OR y NOT, y por último, se usarán compuertas NAND exclusivamente.
+
+\subsection{Primera Expresión: suma de productos}
+
+La expresión de la cual se parte está dada por la siguiente fórmula:
+
+\begin{equation}\label{eq:suma_minterminos}
+f(e,d,c,b,a) = \sum{m(0, 2, 4, 7, 8, 10, 12, 16, 18, 20, 23, 24, 25, 26, 27, 28)}
+\end{equation}
+
+La ecuación \ref{eq:suma_minterminos} nos indica cuales entradas en la tabla de verdad son iguales a uno. A partir de ella podemos plantear la siguiente ecuación, la cual se trabajará para llegar a su respectiva expresión canónica.
+
+\begin{equation}
+\bar{e} \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} \cdot + 
+\bar{e} \cdot \bar{d} \cdot \bar{c} \cdot b \cdot \bar{a} +
+\bar{e} 	\cdot \bar{d} \cdot c \cdot \bar{b} \cdot \bar{a} +
+
+\end{equation}
+\subsubsection{Simplificación mediante álgebra booleana}
+
+
+
+\subsubsection{Simplificacioón mediante mapas de Karnaugh}
+
+
+
+\subsubsection{Implementación mediante compuertas AND, OR y NOT}
+
+
+
+\subsubsection{Implementación mediante compuertas NAND}
+
+
+
+
+
+
+
+\subsection{Segunda expresión: producto de sumas}
+
+\subsubsection{Simplificación mediante álgebra booleana}
+
+\subsubsection{Simplificacioón mediante mapas de Karnaugh}
+
+\subsubsection{Implementación mediante compuertas AND, OR y NOT}
+
+\subsubsection{Implementación mediante compuertas NAND}
