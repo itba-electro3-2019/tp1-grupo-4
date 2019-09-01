@@ -6,6 +6,8 @@ En el siguiente ejercicio se simplificarán dos funciones lógicas aplicando amb
 
 \subsection{Primera Expresión: suma de productos}
 
+\subsubsection{Simplificación mediante álgebra booleana}
+
 La expresión de la cual se parte está dada por la siguiente fórmula:
 
 \begin{equation}\label{eq:suma_minterminos}
@@ -14,26 +16,160 @@ f(e,d,c,b,a) = \sum{m(0, 2, 4, 7, 8, 10, 12, 16, 18, 20, 23, 24, 25, 26, 27, 28)
 
 La ecuación \ref{eq:suma_minterminos} nos indica cuales entradas en la tabla de verdad son iguales a uno. A partir de ella podemos plantear la siguiente ecuación, la cual se trabajará para llegar a su respectiva expresión canónica.
 
-\begin{equation}
-\bar{e} \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} \cdot + 
+\begin{multline}
+\bar{e} \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} + 
 \bar{e} \cdot \bar{d} \cdot \bar{c} \cdot b \cdot \bar{a} +
 \bar{e} 	\cdot \bar{d} \cdot c \cdot \bar{b} \cdot \bar{a} +
+\bar{e} \cdot \bar{d} \cdot c \cdot b \cdot a + 
+\bar{e} \cdot d \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} + 
+\bar{e} \cdot d \cdot \bar{c} \cdot b \cdot \bar{a} + 
+\bar{e} \cdot d \cdot c \cdot \bar{b} \cdot \bar{a} + 
+e \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} + \\
+e \cdot \bar{d} \cdot \bar{c} \cdot b \cdot \bar{a} + 
+e \cdot \bar{d} \cdot c \cdot \bar{b} \cdot \bar{a} + 		
+e \cdot \bar{d} \cdot c \cdot b \cdot a + 
+e \cdot d \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} + 
+e \cdot d \cdot \bar{c} \cdot \bar{b} \cdot a + 
+e \cdot d \cdot \bar{c} \cdot b \cdot \bar{a} + 
+e \cdot d \cdot \bar{c} \cdot b \cdot a +
+e \cdot d \cdot c \cdot \bar{b} \cdot \bar{a} 
+\end{multline}
 
+La expresión anterior puede parecer complicada en un principio, pero esta ordenada según cada mintermino correspondiente. Para comenzar el proceso de simplfiicación, gracias a la ley de idempotencia se puede sumar términos ya presentes en la ecuación anterior. So procederá a duplicar los mintérminos 2, 18 y 26 y a ordenar la fórmula para faciliatr la simplificación. 
+
+\begin{equation}
+\bar{e} \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} +  %0
+\bar{e} \cdot \bar{d} \cdot \bar{c} \cdot b \cdot \bar{a} +        %2
+e \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} +    	  %16
+e \cdot \bar{d} \cdot \bar{c} \cdot b \cdot \bar{a}  	          %18
 \end{equation}
-\subsubsection{Simplificación mediante álgebra booleana}
 
+\begin{equation}
+\bar{e} \cdot d \cdot \bar{c} \cdot b \cdot \bar{a} + 		      %10
+e \cdot d \cdot \bar{c} \cdot b \cdot \bar{a} + 	                  %26
+\bar{e} \cdot \bar{d} \cdot \bar{c} \cdot b \cdot \bar{a} +        %2
+e \cdot \bar{d} \cdot \bar{c} \cdot b \cdot \bar{a}  	          %18
+\end{equation}
+
+\begin{equation}
+\bar{e} 	\cdot \bar{d} \cdot c \cdot \bar{b} \cdot \bar{a} +	      %4
+\bar{e} \cdot d \cdot c \cdot \bar{b} \cdot \bar{a} + 			  %12
+e \cdot \bar{d} \cdot c \cdot \bar{b} \cdot \bar{a} + 		      %20
+e \cdot d \cdot c \cdot \bar{b} \cdot \bar{a}                      %28
+\end{equation}
+
+\begin{equation}
+e \cdot d \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} +              %24
+e \cdot d \cdot \bar{c} \cdot \bar{b} \cdot a +                    %25
+e \cdot d \cdot \bar{c} \cdot b \cdot \bar{a} + 	                  %26
+e \cdot d \cdot \bar{c} \cdot b \cdot a                           %27
+\end{equation}
+
+\begin{equation}
+e \cdot \bar{d} \cdot c \cdot b \cdot a +                          %23
+\bar{e} \cdot \bar{d} \cdot c \cdot b \cdot a  			          %7
+\end{equation}
+
+Las sumas de productos anteriores pueden trabajarse si se factorizan por los términos apropiados:
+
+\begin{equation}\label{eq:minterm_0_2_16_18}
+\bar{d} \cdot \bar{c} \cdot \bar{a} \cdot (\bar{e} \cdot \bar{b} + \bar{e} \cdot b + e \cdot \bar{b} + e \cdot b)
+\end{equation}
+
+\begin{equation}\label{eq:mintem_10_26_2_18}
+\bar{c} \cdot b \cdot \bar{a} \cdot (\bar{e} \cdot b + e 	\cdot d + \bar{e} \cdot \bar{d} + e \cdot \bar{d})
+\end{equation}
+
+\begin{equation}\label{eq:minterm_4_12_20_28}
+c \cdot \bar{b} \cdot \bar{a} \cdot (\bar{e} \cdot \bar{d} + \bar{e} \cdot d + e \cdot \bar{d} + e \cdot d)
+\end{equation}
+
+\begin{equation}\label{eq:minterm_24_25_26_27}
+e \cdot d \cdot c \cdot (\bar{b} \cdot \bar{a} + \bar{b} \cdot a + b \cdot \bar{a} + b \cdot a)
+\end{equation}
+
+\begin{equation}\label{eq:minterm_/_23}
+\bar{d} \cdot c \cdot b \cdot a \cdot (\bar{e} + e)
+\end{equation}
+
+Luego aplicando la propiedad de combinacion en todos los productos:
+
+\begin{equation}\label{eq:minterm_0_2_16_18}
+\bar{d} \cdot \bar{c} \cdot \bar{a} \cdot (\bar{e} \cdot \bar{b} + \bar{e} \cdot b + e \cdot \bar{b} + e \cdot b)
+\end{equation}
+
+\begin{equation}\label{eq:mintem_10_26_2_18}
+\bar{c} \cdot b \cdot \bar{a} \cdot (\bar{e} \cdot b + e 	\cdot d + \bar{e} \cdot \bar{d} + e \cdot \bar{d})
+\end{equation}
+
+\begin{equation}\label{eq:minterm_4_12_20_28}
+c \cdot \bar{b} \cdot \bar{a} \cdot (\bar{e} \cdot \bar{d} + \bar{e} \cdot d + e \cdot \bar{d} + e \cdot d)
+\end{equation}
+
+\begin{equation}\label{eq:minterm_24_25_26_27}
+e \cdot d \cdot c \cdot (\bar{b} \cdot \bar{a} + \bar{b} \cdot a + b \cdot \bar{a} + b \cdot a)
+\end{equation}
+
+\begin{equation}\label{eq:minterm_7_23}
+\bar{d} \cdot c \cdot b \cdot a \cdot (\bar{e} + e)
+\end{equation}
+
+
+En \ref{eq:minterm_0_2_16_18}, \ref{eq:mintem_10_26_2_18}, \ref{eq:minterm_4_12_20_28} y \ref{eq:minterm_24_25_26_27} se puede aplicar la propiedad de combinación, mientras que en \ref{eq:minterm_/_23} se utiliza la ley del complemento:
+
+\begin{equation}\label{eq:minterm_0_2_16_18_Simp}
+\bar{d} \cdot \bar{c} \cdot \bar{a} \cdot (\bar{e} + e)
+\end{equation}
+
+\begin{equation}\label{eq:mintem_10_26_2_18_Simp}
+\bar{c} \cdot b \cdot \bar{a} \cdot (d + \bar{d})
+\end{equation}
+
+\begin{equation}\label{eq:minterm_4_12_20_28_Simp}
+c \cdot \bar{b} \cdot \bar{a} \cdot (\bar{e} + e)
+\end{equation}
+
+\begin{equation}\label{eq:minterm_24_25_26_27_Simp}
+e \cdot d \cdot c \cdot (\bar{b} + b)
+\end{equation}
+
+\begin{equation}\label{eq:minterm_7_23_Simp}
+\bar{d} \cdot c \cdot b \cdot a 
+\end{equation}
+
+Sumando \ref{eq:minterm_0_2_16_18_Simp}, \ref{eq:mintem_10_26_2_18_Simp}, \ref{eq:minterm_4_12_20_28_Simp}, \ref{eq:minterm_24_25_26_27_Simp} y \ref{eq:minterm_7_23_Simp}:
+
+\begin{equation}
+\bar{d} \cdot \bar{c} \cdot \bar{a} \cdot (\bar{e} + e) + 
+\bar{c} \cdot b \cdot \bar{a} \cdot (d + \bar{d}) + 
+c \cdot \bar{b} \cdot \bar{a} \cdot (\bar{e} + e) + 
+e \cdot d \cdot c \cdot (\bar{b} + b) +
+\bar{d} \cdot c \cdot b \cdot a 
+\end{equation}
+
+Finalmente se aplica nuevamente la ley del complemento en los cuatro primeros productos y se llega a la expresión final:
+
+\begin{equation}\label{canonica_minterm}
+\boxed{\bar{d} \cdot \bar{c} \cdot \bar{a} + 
+\bar{c} \cdot b \cdot \bar{a} + 
+c \cdot \bar{b} \cdot \bar{a} + 
+e \cdot d \cdot c \cdot + 
+\bar{d} \cdot c \cdot b \cdot a}
+\end{equation}
 
 
 \subsubsection{Simplificacioón mediante mapas de Karnaugh}
-
+%%Agregar mapas de KArnaugh
 
 
 \subsubsection{Implementación mediante compuertas AND, OR y NOT}
 
+La expresión obtenida en \ref{canonica_minterm} puede ser implementada mediante compuertas lógicas facilmente:
+
 
 
 \subsubsection{Implementación mediante compuertas NAND}
-
+%Agregar NAND
 
 
 
@@ -43,9 +179,63 @@ La ecuación \ref{eq:suma_minterminos} nos indica cuales entradas en la tabla de
 \subsection{Segunda expresión: producto de sumas}
 
 \subsubsection{Simplificación mediante álgebra booleana}
+Para la segunda parte del ejercicio, se comienza a partir del siguiente producto de sumas:
+\begin{equation}\label{eq:prod_maxterminos}
+f(d,c,b,a) = \prod{M_0, M_2, M_4, M_7, M_8, M_10, M_12)}
+\end{equation}
+
+A a partir de \ref{eq:prod_maxterminos} se define la siguiente expresion:
+
+\begin{equation}
+(d + c + b +a) \cdot (d + c + \bar{b} + a) \cdot (d + \bar{c} +b +a) \cdot (d + \bar{c} + \bar{b} + \bar{a}) 	\cdot (\bar{d} + c + b + a) \cdot (\bar{d} + c + \bar{b} + a) \cdot (\bar{d} + \bar{c} + b + a)
+\end{equation}
+
+En este caso se usa nuevamente la propiedad de idempotencia, en este caso para un producto, para duplicar el mintermino número 8 y 0 y así facilitar el trabajo algebraico. Luego se separan los productos en tres grupos para su posterior factorización:
+
+\begin{equation}\label{Maxterm_0_2_8_10}
+(d + c + b +a) \cdot (d + c + \bar{b} + a) \cdot (\bar{d} + c + b + a) \cdot (\bar{d} + c + \bar{b} + a)
+\end{equation}
+
+\begin{equation}\label{Maxterm_0_4_8_12}
+(d + c + b +a) \cdot (d + \bar{c} +b +a) \cdot (\bar{d} + c + b + a) \cdot (\bar{d} + \bar{c} + b + a)
+\end{equation}
+
+\begin{equation}\label{Maxterm_7}
+(d + \bar{c} + \bar{b} + \bar{a})
+\end{equation}
+
+Tanto en \ref{Maxterm_0_2_8_10} como en \ref{Maxterm_0_4_8_12} es posible usar la propiedad de combianción para el producto entre los primeros dos y los últimos dos términos para simplificar las expresiones. \ref{Maxterm_7} esta expresado en forma canóncia.
+
+\begin{equation}\label{Maxterm_0_2_8_10_simp}
+(d + c + a) \cdot (\bar{d} + c + a) 
+\end{equation}
+
+\begin{equation}\label{Maxterm_0_4_8_12_simp}
+(d + b +a) \cdot (\bar{d} + b + a)
+\end{equation}
+
+Luego se utiliza la propiedad de combianción para el producto nuevamente, en ambas ecuaciones:
+
+\begin{equation}\label{Maxterm_0_2_8_10_final}
+(c + a) 
+\end{equation}
+
+\begin{equation}\label{Maxterm_0_4_8_12_final}
+(b +a)
+\end{equation}
+
+Por último se unen \ref{Maxterm_0_2_8_10_final}, \ref{Maxterm_0_4_8_12_final} y \ref{Maxterm_7} para llegar a una expresión final:
+
+\begin{equation}
+\boxed{(c + a) \cdot (b +a) \cdot (d + \bar{c} + \bar{b} + \bar{a})}
+\end{equation}
 
 \subsubsection{Simplificacioón mediante mapas de Karnaugh}
+%%Agregar mapas de karnaugh
 
 \subsubsection{Implementación mediante compuertas AND, OR y NOT}
 
+%Agregar compuertas AND, NOT y OR
+
 \subsubsection{Implementación mediante compuertas NAND}
+%Agregar compuertas NAND
