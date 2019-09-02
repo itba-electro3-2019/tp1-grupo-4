@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.25)  1 SEP 2019 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.25)  1 SEP 2019 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,7 +804,7 @@ LaTeX Info: Redefining \% on input line 1.
  (./Ejercicio_2/Ejercicio_2.tex
 [2
 
-] [3]) (./Ejercicio_3/Ejercicio_3.tex [4]
+] [3] [4]) (./Ejercicio_3/Ejercicio_3.tex
 <Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, id=58, 164.98639pt x 152.04103pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>
@@ -1145,13 +1145,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16293 strings out of 492616
- 316786 string characters out of 6129481
- 438217 words of memory out of 5000000
- 19825 multiletter control sequences out of 15000+600000
+ 16297 strings out of 492616
+ 316894 string characters out of 6129481
+ 439217 words of memory out of 5000000
+ 19829 multiletter control sequences out of 15000+600000
  21715 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,18n,81p,596b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,18n,81p,596b,950s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
@@ -1166,7 +1166,7 @@ al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Trabajo_Práctico_1.pdf (18 pages, 434269 bytes).
+Output written on Trabajo_Práctico_1.pdf (18 pages, 436319 bytes).
 PDF statistics:
  264 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
