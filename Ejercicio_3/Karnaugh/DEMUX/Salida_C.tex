@@ -6,28 +6,28 @@
 \begin{tikzpicture}[x=1cm,y=1cm]
     \K[x bits = 2, y bits = 1, label={$C$},
        variable names = {$S_1$,$S_0$,$I$,}]
-    { % some random truth table...
+    {
       000,0,    
       001,0,   
       010,0,   
       011,0,       
       100,0, 
-      101,0,
+      101,1,
       110,0,
- 	  111,1,
+ 	  111,0,
     }
     \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 1,group opacity = #1,
                   #2]{#3}{#4}}
-    \myKG     {group color = yellow,  group distance=0.35}{111}{111}
+    \myKG     {group color = yellow,  group distance=0.35}{101}{101}
 
     %=====================================================================
     % in picture comments
     %=====================================================================
 
 
-    \path (1,-2) node[anchor = north, align = left] (eq1){%
-    $A = 
-       \ul{yellow}{${I}\,\ol{S_1}\,{S_0}\,$} 
+    \path (1,-1.5) node[anchor = north, align = left] (eq1){%
+    $C = 
+       \ul{yellow}{${I}\,{S_1}\,\ol{S_0}\,$} 
     $};
   \end{tikzpicture}
   

@@ -5,8 +5,16 @@
 \usepackage[utf8]{inputenc}
 % caracteres utf8 (tildes, enie) sin tener que usar comandos
 
+%Para mapas de Karnaugh
+\usepackage{xstring}    % needed for string manipulations
+\usepackage{fmtcount}   % needed for some binary printing
+
 \usepackage{pdfpages} 
-%para agregar pdfs(Karnaugh)
+%para agregar pdfs(Karnaugh) 
+
+\usepackage{fancyhdr}
+
+% web: http://www.texample.net/tikz/examples/karnaugh-diagram/
 
 \usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
 % texto automatico en espaniol
@@ -16,10 +24,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%% PAQUETES EXTRA %%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Para manejo de figuraaas
+\usepackage[export]{adjustbox}
+\usepackage{subcaption}
+
+%Para letras de los captions
+\usepackage[font=scriptsize,labelfont=bf]{caption}
+
 
 %Defino el papel y caracteristicas del informe
 \usepackage[a4paper, total={6in, 8in}]{geometry}
-\setlength{\parindent}{10pt}			%cuanta sangria al principio de un parrafo
+\setlength{\parindent}{20pt}			%cuanta sangria al principio de un parrafo
 \usepackage{indentfirst}				%pone sangria al primer parrafo de una seccion
 \usepackage{graphicx} % importar imagenes
 \usepackage{float} % posicion H para floats
@@ -175,3 +190,13 @@
     \foreach \x in {#1}
         \path (\x) node {X};
 }
+
+\input{Extras/Config.tex}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Trabajo Práctico $N^\circ1$}
+\lhead{22.12 - Electr\'onica III}
+\rfoot{Página \thepage}
+\renewcommand{\headrulewidth}{1.5pt}
+\renewcommand{\footrulewidth}{1pt}

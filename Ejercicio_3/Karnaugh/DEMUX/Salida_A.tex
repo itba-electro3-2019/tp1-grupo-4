@@ -6,7 +6,7 @@
     \begin{tikzpicture}[x=1cm,y=1cm]
     \K[x bits = 2, y bits = 1, label={$A$},
        variable names = {$S_1$,$S_0$,$I$,}]
-    { % some random truth table...
+    { 
       000,0,    
       001,1,   
       010,0,   
@@ -25,11 +25,49 @@
     %=====================================================================
 
 
-    \path (1,-2) node[anchor = north, align = left] (eq1){%
+    \path (1,-1.5) node[anchor = north, align = left] (eq1){%
     $A = 
        \ul{green}{${I}\,\ol{S_1}\,\ol{S_0}\,$} 
     $};
   \end{tikzpicture}
   
-  
 \end{document}
+  
+%\end{document}
+%
+%\begin{tikzpicture}[x=1cm,y=1cm]
+%    \K[x bits = 2, y bits = 2, label={$Y_4$},
+%       variable names = {$X_1$,$X_2$,$X_3$,$X_4$,}]
+%    { % some random truth table...
+%      0000,0,    
+%      0001,1,   
+%      0010,1,   
+%      0011,0,       
+%      0100,1, 
+%      0101,1,
+%      0110,1,
+% 	  0111,0,
+% 	  1000,0,    
+%      1001,1,   
+%      1010,1,   
+%      1011,0,       
+%      1100,0, 
+%      1101,1,
+%      1110,1,
+% 	  1111,0,
+%    }
+%    \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+%                  #2]{#3}{#4}}
+%    \myKG     {group color = green,  group distance=0.35}{0001}{0010}
+%    \myKG     {group color = green,  group distance=0.35}{0010}{1010}
+%
+%    %=====================================================================
+%    % in picture comments
+%    %=====================================================================
+%
+%
+%    \path (1,-2) node[anchor = north, align = left] (eq1){%
+%    $Y_4 = 
+%       \ul{green}{$X_3\,\ol{X_4}\,$} + \ul{green}{$\ol{X_3}\,X_4,$}
+%    $};
+%  \end{tikzpicture}

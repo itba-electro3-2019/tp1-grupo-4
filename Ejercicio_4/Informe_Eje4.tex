@@ -93,52 +93,143 @@ Que al reemplazar cada mintérmino por su correspondiente expresión obtenemos:
 \end{center}
 Tenemos unas funciones muy larga y como las tenemos expresadas en mintérminos podemos simplificarlas por medio del mapa de Karnaugh. Ésto nos da a lugar a los siguientes mapas de Karnaugh y funciones de salida simplificadas:\\
 \begin{center}
-	%Y4
-	\begin{Karnaugh}
-        \contingut{0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0}
-       	\implicant{4}{6}{red}
-       	\implicant{8}{10}{purple}
-    \end{Karnaugh}
-    %Y3
-    \begin{Karnaugh}
-        \contingut{0,1,0,1,0,1,0,1,1,0,1,0,1,0,1,0}
-        \implicant{1}{7}{red}
-        \implicantcostats{12}{10}{purple}
-    \end{Karnaugh}\\
-    %Y4
-    $Y_4=X_3 \cdot \overline{X_4}+\overline{X_3} \cdot X_4$
-    \hspace{28mm}
-    %Y3
-    $Y_3=X_2 \cdot \overline{X_3}+\overline{X_2} \cdot X_3$\\
-    %Y4
-    Mapa de Karnaugh y formula de $Y_4$
-    \hspace{6mm}
-    %Y3
-    Mapa de Karnaugh y formula de $Y_3$\\
-\end{center}
-\medskip
-\begin{center}
-	%Y2
-	\begin{Karnaugh}
-        \contingut{0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0}
-        \implicant{1}{9}{red}
-        \implicant{2}{10}{purple}
-    \end{Karnaugh}
-    %Y1
-    \begin{Karnaugh}
-        \contingut{0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1}
-        \implicant{3}{10}{red}
-    \end{Karnaugh}\\
-    %Y2
-    $Y_2=X_1 \cdot \overline{X_2}+\overline{X_1} \cdot X_2$
-    \hspace{28mm}
-    %Y1
-    $Y_1=X_1$\\
-    %Y2
-    Mapa de Karnaugh y formula de $Y_2$
-    \hspace{6mm}
-    %Y3
-    Mapa de Karnaugh y formula de $Y_1$\\
+	
+\begin{figure}[H]
+   \centering
+\begin{tabular}{cc}
+\includegraphics[width=4cm,trim={0.5cm 0.5cm  0.25cm 0.25cm},clip]{Ejercicio_4/Karnaugh/Y_1.pdf}&
+\includegraphics[width=4cm,trim={0.5cm 0.5cm  0.25cm 0.25cm},clip]{Ejercicio_4/Karnaugh/Y_2.pdf}\\
+\includegraphics[width=4cm,trim={0.5cm 0.5cm  0.25cm 0.25cm},clip]{Ejercicio_4/Karnaugh/Y_3.pdf}&
+\includegraphics[width=4cm,trim={0.5cm 0.5cm  0.25cm 0.25cm},clip]{Ejercicio_4/Karnaugh/Y_4.pdf}
+\end{tabular}
+    \caption{Mapas de Karnaugh de las salidas $Y_1$, $Y_2$, $Y_3$ e $Y_4$}
+    \label{fig:Karnaughs_GRAY} 
+\end{figure}	
+%	%Y4
+%
+%	\begin{Karnaugh}
+%        \contingut{0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0}
+%       	\implicant{4}{6}{red}
+%       	\implicant{8}{10}{purple}
+%    \end{Karnaugh}
+%    %Y3
+%    \begin{Karnaugh}
+%        \contingut{0,1,0,1,0,1,0,1,1,0,1,0,1,0,1,0}
+%        \implicant{1}{7}{red}
+%        \implicantcostats{12}{10}{purple}
+%    \end{Karnaugh}\\
+%    %Y4
+%    $Y_4=X_3 \cdot \overline{X_4}+\overline{X_3} \cdot X_4$
+%    \hspace{28mm}
+%    %Y3
+%    $Y_3=X_2 \cdot \overline{X_3}+\overline{X_2} \cdot X_3$\\
+%    %Y4
+%    Mapa de Karnaugh y formula de $Y_4$
+%    \hspace{6mm}
+%    %Y3
+%    Mapa de Karnaugh y formula de $Y_3$\\
+%\end{center}
+%\medskip
+%%
+%%    \begin{tikzpicture}[x=1cm,y=1cm]
+%%    \K[x bits = 2, y bits = 2, label={$Y_2$},
+%%       variable names = {$X_1$,$X_2$,$X_3$,$X_4$,}]
+%%    { 
+%%      0000,0,    
+%%      0001,0,   
+%%      0010,0,   
+%%      0011,0,       
+%%      0100,1, 
+%%      0101,1,
+%%      0110,1,
+%% 	  0111,1,
+%% 	  1000,1,    
+%%      1001,1,   
+%%      1010,1,   
+%%      1011,1,       
+%%      1100,0, 
+%%      1101,0,
+%%      1110,0,
+%% 	  1111,0,
+%%    }
+%%    \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+%%                  #2]{#3}{#4}}
+%%    \myKG     {group color = green,  group distance=0.35}{0110}{0100}
+%%    \myKG     {group color = blue,  group distance=0.35}{1010}{1000}
+%%
+%%    %=====================================================================
+%%    % in picture comments
+%%    %=====================================================================
+%%
+%%
+%%    \path (1,-3.5) node[anchor = north, align = left] (eq1){%
+%%    $Y_2 = 
+%%       \ul{blue}{${X_1}\,\ol{X_2}\,$}
+%%       +\ul{green}{$\ol{X_1}\,{X_2}\,$}  
+%%    $};
+%%  \end{tikzpicture}
+%%  
+%%
+%%    \begin{tikzpicture}[x=1cm,y=1cm]
+%%    \K[x bits = 2, y bits = 2, label={$Y_1$},
+%%       variable names = {$X_1$,$X_2$,$X_3$,$X_4$,}]
+%%    { 
+%%      0000,0,    
+%%      0001,0,   
+%%      0010,0,   
+%%      0011,0,       
+%%      0100,0, 
+%%      0101,0,
+%%      0110,0,
+%% 	  0111,0,
+%% 	  1000,1,    
+%%      1001,1,   
+%%      1010,1,   
+%%      1011,1,       
+%%      1100,1, 
+%%      1101,1,
+%%      1110,1,
+%% 	  1111,1,
+%%    }
+%%    \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+%%                  #2]{#3}{#4}}
+%%    \myKG     {group color = green,  group distance=0.35}{1100}{1010}
+%%
+%%
+%%    %=====================================================================
+%%    % in picture comments
+%%    %=====================================================================
+%%
+%%
+%%    \path (1,-3.5) node[anchor = north, align = left] (eq1){%
+%%    $Y_1 = 
+%%       \ul{blue}{${X_1}\,$}
+%%    $};
+%%  \end{tikzpicture}
+%%  
+%  
+%\begin{center}
+%	%Y2
+%	\begin{Karnaugh}
+%        \contingut{0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0}
+%        \implicant{1}{9}{red}
+%        \implicant{2}{10}{purple}
+%    \end{Karnaugh}
+%    %Y1
+%    \begin{Karnaugh}
+%        \contingut{0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1}
+%        \implicant{3}{10}{red}
+%    \end{Karnaugh}\\
+%    %Y2
+%    $Y_2=X_1 \cdot \overline{X_2}+\overline{X_1} \cdot X_2$
+%    \hspace{28mm}
+%    %Y1
+%    $Y_1=X_1$\\
+%    %Y2
+%    Mapa de Karnaugh y formula de $Y_2$
+%    \hspace{6mm}
+%    %Y3
+%    Mapa de Karnaugh y formula de $Y_1$\\
 \end{center}
 De los valores obtenidos podemos realizar el siguiente circuito conformado por compuertas OR, AND y NOT:\\
 \begin{figure}[H]

@@ -7,7 +7,7 @@
       \begin{tikzpicture}[x=1cm,y=1cm]
     \K[x bits = 2, y bits = 1, label={$B$},
        variable names = {$S_1$,$S_0$,$I$,}]
-    { % some random truth table...
+    { 
       000,0,    
       001,0,   
       010,0,   
@@ -26,9 +26,9 @@
     %=====================================================================
 
 
-    \path (1,-2) node[anchor = north, align = left] (eq1){%
-    $A = 
-       \ul{red}{${I}\,S_1\,\ol{S_0}\,$} 
+    \path (1,-1.5) node[anchor = north, align = left] (eq1){%
+    $B = 
+       \ul{red}{${I}\,\ol{S_1}\,{S_0}\,$} 
     $};
   \end{tikzpicture}
   

@@ -1,0 +1,46 @@
+\input{Config.tex}
+\begin{document}
+
+%Mapa de Karnaugh salida Y_3
+
+        \begin{tikzpicture}[x=1cm,y=1cm]
+    \K[x bits = 2, y bits = 2, label={$Y_3$},
+       variable names = {$X_1$,$X_2$,$X_3$,$X_4$,}]
+    { 
+      0000,0,    
+      0001,0,   
+      0010,1,   
+      0011,1,       
+      0100,1, 
+      0101,1,
+      0110,0,
+ 	  0111,0,
+ 	  1000,0,    
+      1001,0,   
+      1010,1,   
+      1011,1,       
+      1100,1, 
+      1101,1,
+      1110,0,
+ 	  1111,0,
+    }
+    \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+                  #2]{#3}{#4}}
+    \myKG     {group color = green,  group distance=0.35}{0101}{1100}
+    \myKG     {group color = red,  group distance=0.35}{1010}{0011}
+
+    %=====================================================================
+    % in picture comments
+    %=====================================================================
+
+
+    \path (1,-3.5) node[anchor = north, align = left] (eq1){%
+    $Y_3 = 
+       \ul{red}{${X_3}\,\ol{X_2}\,$}
+       +\ul{green}{$\ol{X_3}\,{X_2}\,$}  
+    $};
+  %\caption{Mapa de Karnaugh y fórmula de $Y_3$}
+  \end{tikzpicture}
+  
+  
+\end{document}
