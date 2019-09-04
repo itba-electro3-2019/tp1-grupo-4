@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.25)  1 SEP 2019 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.25)  4 SEP 2019 03:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -50,27 +50,6 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-! Undefined control sequence.
-l.16 \userpackage
-                 {amsmath}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \userpackage{a
-                   msmath}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 (/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
@@ -721,9 +700,7 @@ Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) [1
-
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+)
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -756,19 +733,22 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./Caratula.tex
+
+(./Caratula.tex
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 5.
 
-<ITBA.png, id=34, 1204.5pt x 501.875pt>
+<ITBA.png, id=29, 1204.5pt x 501.875pt>
 File: ITBA.png Graphic file (type png)
 <use ITBA.png>
 Package pdftex.def Info: ITBA.png  used on input line 33.
 (pdftex.def)             Requested size: 240.89574pt x 100.37321pt.
 [1
 
- <./ITBA.png>]) (./Informe.toc
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ITBA.
+png>]) (./Informe.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -808,73 +788,86 @@ LaTeX Info: Redefining \% on input line 1.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./Ejercicio_2/Ejercicio_2.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.21 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ (./Ejercicio_2/Ejercicio_2.tex [2
 
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.21 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+]
+
+LaTeX Warning: Reference `eq:minterm_0_2_16_18' on page 3 undefined on input li
+ne 118.
 
 
-! LaTeX Error: Bad math environment delimiter.
+LaTeX Warning: Reference `eq:mintem_10_26_2_18' on page 3 undefined on input li
+ne 118.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
-! You can't use `\eqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.22 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+LaTeX Warning: Reference `eq:minterm_4_12_20_28' on page 3 undefined on input l
+ine 118.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.22 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+LaTeX Warning: Reference `eq:minterm_24_25_26_27' on page 3 undefined on input 
+line 118.
 
-) (./Ejercicio_4/Informe_Eje4.tex [2
 
-] [3]
+LaTeX Warning: Reference `eq:minterm_/_23' on page 3 undefined on input line 11
+8.
+
+
+LaTeX Warning: Reference `eq:minterm_0_2_16_18_Simp' on page 3 undefined on inp
+ut line 140.
+
+
+LaTeX Warning: Reference `eq:mintem_10_26_2_18_Simp' on page 3 undefined on inp
+ut line 140.
+
+
+LaTeX Warning: Reference `eq:minterm_4_12_20_28_Simp' on page 3 undefined on in
+put line 140.
+
+
+LaTeX Warning: Reference `eq:minterm_24_25_26_27_Simp' on page 3 undefined on i
+nput line 140.
+
+
+LaTeX Warning: Reference `eq:minterm_7_23_Simp' on page 3 undefined on input li
+ne 140.
+
+
+LaTeX Warning: Reference `canonica_minterm' on page 3 undefined on input line 1
+67.
+
+[3]
+
+LaTeX Warning: Reference `eq:prod_maxterminos' on page 4 undefined on input lin
+e 187.
+
+
+LaTeX Warning: Reference `Maxterm_0_2_8_10' on page 4 undefined on input line 2
+07.
+
+
+LaTeX Warning: Reference `Maxterm_0_4_8_12' on page 4 undefined on input line 2
+07.
+
+
+LaTeX Warning: Reference `Maxterm_7' on page 4 undefined on input line 207.
+
+
+LaTeX Warning: Reference `Maxterm_0_2_8_10_final' on page 4 undefined on input 
+line 227.
+
+
+LaTeX Warning: Reference `Maxterm_0_4_8_12_final' on page 4 undefined on input 
+line 227.
+
+
+LaTeX Warning: Reference `Maxterm_7' on page 4 undefined on input line 227.
+
+) (./Ejercicio_4/Informe_Eje4.tex [4] [5]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<Ejercicio_4/Circuito.jpg, id=58, 551.661pt x 402.90524pt>
+<Ejercicio_4/Circuito.jpg, id=61, 551.661pt x 402.90524pt>
 File: Ejercicio_4/Circuito.jpg Graphic file (type jpg)
 <use Ejercicio_4/Circuito.jpg>
 Package pdftex.def Info: Ejercicio_4/Circuito.jpg  used on input line 146.
@@ -884,19 +877,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--148
 
  []
 
-) [4] [5 <./Ejercicio_4/Circuito.jpg>] (./Informe.aux
+) [6] [7 <./Ejercicio_4/Circuito.jpg>] (./Informe.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 16203 strings out of 492616
- 313221 string characters out of 6129481
- 435718 words of memory out of 5000000
- 19756 multiletter control sequences out of 15000+600000
+ 16223 strings out of 492616
+ 313659 string characters out of 6129481
+ 431834 words of memory out of 5000000
+ 19776 multiletter control sequences out of 15000+600000
  21715 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,15n,81p,583b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -910,10 +909,10 @@ b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Informe.pdf (7 pages, 373842 bytes).
+Output written on Informe.pdf (8 pages, 379235 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
