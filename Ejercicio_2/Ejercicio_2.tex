@@ -166,13 +166,13 @@ e \cdot d \cdot c \cdot +
 
 La expresión obtenida en \ref{canonica_minterm} puede ser implementada mediante compuertas lógicas facilmente:
 
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_logly.png}
 
 
 \subsubsection{Implementación mediante compuertas NAND}
-%Agregar NAND
+A su vez el circuito anterior implementado mediante compuertas nand queda de la siguiente manera:
 
-
-
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_nand_logly.png}
 
 
 
@@ -226,7 +226,7 @@ Luego se utiliza la propiedad de combianción para el producto nuevamente, en am
 
 Por último se unen \ref{Maxterm_0_2_8_10_final}, \ref{Maxterm_0_4_8_12_final} y \ref{Maxterm_7} para llegar a una expresión final:
 
-\begin{equation}
+\begin{equation}\label{eq:max_final}
 \boxed{(c + a) \cdot (b +a) \cdot (d + \bar{c} + \bar{b} + \bar{a})}
 \end{equation}
 
@@ -236,7 +236,11 @@ Por último se unen \ref{Maxterm_0_2_8_10_final}, \ref{Maxterm_0_4_8_12_final} y
 
 \subsubsection{Implementación mediante compuertas AND, OR y NOT}
 
-%Agregar compuertas AND, NOT y OR
+Al igual que con la expresion anterior se implementó la función obtenida en \ref{eq:max_final} mediante compuertas AND, OR y NOT:
+
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_logly.png}
 
 \subsubsection{Implementación mediante compuertas NAND}
-%Agregar compuertas NAND
+Por último se realizó el circuito anterior solamente con compuertas nand:
+
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_nand_logly.png}
