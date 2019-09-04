@@ -1,0 +1,4 @@
+#!/bin/bash
+iverilog module_.v 
+vvp a.out
+rm a.out
