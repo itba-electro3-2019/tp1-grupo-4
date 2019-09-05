@@ -165,6 +165,7 @@ e \cdot d \cdot c \cdot +
 
 \subsubsection{Simplificación mediante mapas de Karnaugh}
 
+Otro método oara conseguir la mínima expresión posible es mediante mapas de Karnaugh. A continaución se utilizó un mapa de Karnaugh de 5 variables con el fin de llegar a la expresión canónica:
 \begin{figure}[H]
    \centering
 \begin{tabular}{ccc}
@@ -294,6 +295,8 @@ A su vez el circuito anterior implementado mediante compuertas nand queda de la 
 
 
 \subsection{Segunda expresión: producto de sumas}
+Por último, se sabe que tanto las compuertas AND, OR o NOT pueden ser representadas usando compuertas NAND unicamente. A continaución se realizó el mismo circuito lógico solo con compuertas NAND:
+
 
 \subsubsection{Simplificación mediante álgebra booleana}
 Para la segunda parte del ejercicio, se comienza a partir del siguiente producto de sumas:
@@ -348,12 +351,12 @@ Por último se unen \ref{Maxterm_0_2_8_10_final}, \ref{Maxterm_0_4_8_12_final} y
 \end{equation}
 
 \subsubsection{Simplificacioón mediante mapas de Karnaugh}
+Al igual que en el punto anterior, se utilizaron mapas de KArnaugh para llegar a la mínima expresión posible:
 
-%Agregar Karnaugh
 
 \subsubsection{Implementación mediante compuertas AND, OR y NOT}
 
-Al igual que con la expresion anterior se implementó la función obtenida en \ref{eq:max_final} mediante compuertas AND, OR y NOT:
+A continuación se implementó la función obtenida en \ref{eq:max_final} mediante compuertas AND, OR y NOT:
 
 \begin{figure}[H]
 \centering
@@ -361,7 +364,7 @@ Al igual que con la expresion anterior se implementó la función obtenida en \r
 \end{figure}
 
 \subsubsection{Implementación mediante compuertas NAND}
-Por último se realizó el circuito anterior solamente con compuertas nand:
+Por último se realizó el circuito anterior solamente con compuertas NAND:
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm,height=6cm]{Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png}
