@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1567562510 "/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.tex" "/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.pdf" "Ejercicio_3" 1567562512
-  "/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.aux" 1567562512 763 eadfc1bbe701c3c6b3494cbc3b7745c7 ""
-  "/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.tex" 1567562508 3363 1ee268e65201631cbb0c8896ff7bcaf0 ""
-  "/dev/null" 1567562505 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1567644765 "/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.tex" "/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.pdf" "Ejercicio_3" 1567644766
+  "/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.aux" 1567644766 763 eadfc1bbe701c3c6b3494cbc3b7745c7 ""
+  "/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.tex" 1567644764 3723 59fce0d3de5e1f0ad0999c30f4ead7f6 ""
+  "/dev/null" 1567644750 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -223,14 +223,14 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1565310659 4259635 56aa23439184370320bcd1a682f78e08 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "Ejercicio_3.aux" 1567562512 763 eadfc1bbe701c3c6b3494cbc3b7745c7 "pdflatex"
-  "Ejercicio_3.tex" 1567562508 3363 1ee268e65201631cbb0c8896ff7bcaf0 ""
+  "Ejercicio_3.aux" 1567644766 763 eadfc1bbe701c3c6b3494cbc3b7745c7 "pdflatex"
+  "Ejercicio_3.tex" 1567644764 3723 59fce0d3de5e1f0ad0999c30f4ead7f6 ""
   "fig_0.png" 1567558537 35393 48bce510f21fbba7ea9e615a102e0d27 ""
   "fig_1.png" 1567562052 37004 260595861a41ea040cc483d2b468e64a ""
   "fig_2.png" 1567558551 131200 569e53bdd080ddb3dc27843f26f7b48d ""
   (generated)
+  "/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.log"
+  "/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.pdf"
   "Ejercicio_3.aux"
-  "/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.log"
-  "Ejercicio_3.log"
   "Ejercicio_3.pdf"
-  "/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.pdf"
+  "Ejercicio_3.log"

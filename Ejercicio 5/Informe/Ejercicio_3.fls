@@ -1,9 +1,9 @@
-PWD /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe
+PWD /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.tex
-OUTPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.log
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.tex
+OUTPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.log
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
@@ -271,7 +271,7 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.pdf
+OUTPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -298,9 +298,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/vmargin/vmargin.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/vmargin/vmargin.sty
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.aux
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.aux
-OUTPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.aux
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.aux
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.aux
+OUTPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.aux
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -338,17 +338,17 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_0.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_0.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_0.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_1.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_1.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_1.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_2.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_2.png
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_2.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_0.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_0.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_0.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_1.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_1.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_1.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_2.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_2.png
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_2.png
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.aux
+INPUT /Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.aux
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb

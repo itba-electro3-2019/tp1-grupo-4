@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.8)  3 SEP 2019 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.8)  4 SEP 2019 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.tex"
-(/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.tex
+**"/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.tex"
+(/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -859,7 +859,7 @@ Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \PaperWidth=\dimen311
 \PaperHeight=\dimen312
-) (/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.aux
+) (/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -984,20 +984,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_0.png>] [2 </Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_1.png> </Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/fig_2.png>] (/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.aux
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_0.png>] [2 </Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_1.png> </Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/fig_2.png>] (/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 44226 strings out of 492616
- 1094975 string characters out of 6129482
+ 44231 strings out of 492616
+ 1095683 string characters out of 6129482
  1288904 words of memory out of 5000000
- 47590 multiletter control sequences out of 15000+600000
+ 47595 multiletter control sequences out of 15000+600000
  537766 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,119p,889b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,6n,119p,960b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on "/Users/manueldieguez/Documents/Verilog/Ejemplos/Ejercicio 5/Informe/Ejercicio_3.pdf" (2 pages, 217134 bytes).
+Output written on "/Users/manueldieguez/Google Drive/Instituto Tecnologico de Buenos Aires/Electronica III/Trabajos Practicos/tp1-grupo-4/Ejercicio 5/Informe/Ejercicio_3.pdf" (2 pages, 219908 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream

@@ -1,8 +1,8 @@
 \section{Algebra booleana y compuertas lógicas}
 
-En el álgebra booleana se conoce como término canónico de una función lógica a todo producto o suma en la cual aparecen todas las variables en su forma directa o inversa. Cualquier función lógica puede expresarse de forma canónica utilizando los conceptos de min y maxtérminos. El primero, se refiere a todas las filas para las cuales la función lógica es igual a uno en la tabla de verdad  correspondiente, mientras que el segundo se corresponde con todos los valores para los cuales la función es igual a cero. 
+En el álgebra booleana se conoce como término canónico de una función lógica a todo producto o suma en la cual aparecen todas las variables en su forma directa o inversa. Cualquier función lógica puede expresarse de forma canónica utilizando los conceptos de min y maxtérminos. El primero, se refiere a todas las filas para las cuales la función lógica es igual a uno en la tabla de verdad correspondiente, mientras que el segundo se corresponde con todos los valores para los cuales la función es igual a cero. 
 
-En el siguiente ejercicio se simplificarán dos funciones lógicas aplicando ambos conceptos. Luego se utilizarán mapas de Karnaugh para llegar a la misma expresión.A continuación se dibujará el circuito lógico resultante utilizando compuertas AND, OR y NOT, y por último, se usarán compuertas NAND exclusivamente.
+En el siguiente ejercicio se simplificarán dos funciones lógicas aplicando ambos conceptos. Luego se utilizarán mapas de Karnaugh para llegar a la misma expresión. A continuación se dibujará el circuito lógico resultante utilizando compuertas AND, OR y NOT, y por último, se usarán compuertas NAND exclusivamente.
 
 \subsection{Primera Expresión: suma de productos}
 
@@ -35,7 +35,7 @@ e \cdot d \cdot \bar{c} \cdot b \cdot a +
 e \cdot d \cdot c \cdot \bar{b} \cdot \bar{a} 
 \end{multline}
 
-La expresión anterior puede parecer complicada en un principio, pero esta ordenada según cada mintermino correspondiente. Para comenzar el proceso de simplfiicación, gracias a la ley de idempotencia se puede sumar términos ya presentes en la ecuación anterior. So procederá a duplicar los mintérminos 2, 18 y 26 y a ordenar la fórmula para faciliatr la simplificación. 
+La expresión anterior puede parecer complicada en un principio, pero esta ordenada según cada mintermino correspondiente. Para comenzar el proceso de simplificación, gracias a la ley de idempotencia se puede sumar términos ya presentes en la ecuación anterior. So procederá a duplicar los mintérminos 2, 18 y 26 y a ordenar la fórmula para facilitar la simplificación. 
 
 \begin{equation}
 \bar{e} \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} +  %0
@@ -92,7 +92,7 @@ e \cdot d \cdot c \cdot (\bar{b} \cdot \bar{a} + \bar{b} \cdot a + b \cdot \bar{
 \bar{d} \cdot c \cdot b \cdot a \cdot (\bar{e} + e)
 \end{equation}
 
-Luego aplicando la propiedad de combinacion en todos los productos:
+Luego aplicando la propiedad de combinación en todos los productos:
 
 \begin{equation}\label{eq:minterm_0_2_16_18}
 \bar{d} \cdot \bar{c} \cdot \bar{a} \cdot (\bar{e} \cdot \bar{b} + \bar{e} \cdot b + e \cdot \bar{b} + e \cdot b)
@@ -158,21 +158,212 @@ e \cdot d \cdot c \cdot +
 \end{equation}
 
 
-\subsubsection{Simplificacioón mediante mapas de Karnaugh}
-%%Agregar mapas de KArnaugh
+\subsubsection{Simplificación mediante mapas de Karnaugh}
+    \begin{tikzpicture}[x=1cm,y=1cm]
+        \K[x bits = 2, y bits = 2, label={$$},
+        variable names = {$D$,$C$,$B$,$A$,}]
+        { 
+        0000,1,    
+        0001,0,   
+        0010,1,   
+        0011,0,       
+        0100,1, 
+        0101,0,
+        0110,0,
+        0111,0,
+        1000,1,    
+        1001,0,   
+        1010,1,   
+        1011,0,       
+        1100,1, 
+        1101,0,
+        1110,0,
+        1111,1,
+        }
+        \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+                    #2]{#3}{#4}}
+        \myKG     {group color = brown,  group distance=0.35}{0000}{1000}
+        \myKG     {group color = green,  group distance=0.35}{0010}{0010}
+        \myKG     {group color = red,  group distance=0.35}{1010}{1010}
+        \path (1,-3.5) node[anchor = north, align = left] (eq1){%
+        $
+        \ul{brown}{$\ol{B}\,\ol{A}\,$} +
+        \ul{brown}{$\ol{D}\,\ol{C}\,B\,\ol{A}\,$}
+        $};
+    \end{tikzpicture}
+    
+    \begin{tikzpicture}[x=1cm,y=1cm]
+        \K[x bits = 2, y bits = 2, label={$$},
+        variable names = {$E$,$D$,$C$,$B$,}]
+        { 
+        0000,1,    
+        0001,1,   
+        0010,1,   
+        0011,0,       
+        0100,1, 
+        0101,1,
+        0110,1,
+        0111,0,
+        1000,1,    
+        1001,1,   
+        1010,1,   
+        1011,0,       
+        1100,1, 
+        1101,1,
+        1110,1,
+        1111,0,
+        }
+        \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+                    #2]{#3}{#4}}
+        \myKG     {group color = brown,  group distance=0.35}{0001}{1000}
+        \myKG     {group color = green,  group distance=0.35}{0000}{1010}
+        \path (1,-3.5) node[anchor = north, align = left] (eq1){%
+        $A=0 /                 
+        \ul{green}{$\ol{B}\,$} +
+        \ul{brown}{$\ol{C}\,$}
+        $};
+    \end{tikzpicture}
+    
+    \begin{tikzpicture}[x=1cm,y=1cm]
+        \K[x bits = 2, y bits = 2, label={$$},
+        variable names = {$E$,$D$,$C$,$B$,}]
+        { 
+        0000,0,    
+        0001,0,   
+        0010,0,   
+        0011,1,       
+        0100,0, 
+        0101,0,
+        0110,0,
+        0111,0,
+        1000,0,    
+        1001,0,   
+        1010,0,   
+        1011,1,       
+        1100,1, 
+        1101,1,
+        1110,0,
+        1111,0,
+        }
+        \newcommand*{\myKG}[4][0.1]{\KG[x bits = 2,y bits = 2,group opacity = #1,
+                    #2]{#3}{#4}}
+        \myKG     {group color = brown,  group distance=0.35}{1101}{1100}
+        \myKG     {group color = green,  group distance=0.35}{1011}{0011}
+        \path (1,-3.5) node[anchor = north, align = left] (eq1){%
+        $A=1 /                 
+        \ul{green}{$C\,B\,\ol{D}\,$} +
+        \ul{brown}{$E\,D\,\ol{C}\,$}
+        $};
+    \end{tikzpicture}
+    
+    \pagebreak
+
+    \begin{table}[H]
+        \begin{center}
+            \def\arraystretch{1.5}
+            \begin{tabular}{|c|c|}
+                \hline
+                (0,2,8,10,16,18,24,26) &	$\bar{C}\bar{E}$ \\
+                \hline
+                (0,4,8,12,16,20,24,28) & $\bar{D}\bar{E}$ \\
+                \hline  
+                (24,25,26,27) & $AB\bar{C}$ \\
+                \hline   
+                (7,23) & $\bar{B}CDE$ \\
+                \hline           
+                
+            \end{tabular}
+            %\caption{Tabla de verdad del Demultiplexor}
+        \end{center}
+
+    \end{table}
+
+    \pagebreak
+    
+    \begin{table}[H]
+        \begin{center}
+            \def\arraystretch{1.5}
+            \begin{tabular}{|c|c|c|c|c|}
+                \hline
+                &	$\bar{D}\bar{E}$ &	$\bar{D}E$ &	$D\bar{E}$ & $DE$ \\
+                \hline
+                $\bar{A}\bar{B}\bar{C}$ & 1 & 0 & 0 & 1 \\
+                \hline          
+                $\bar{A}\bar{B}C$ & 1 & 0 & 1 & 0 \\
+                \hline   
+                $\bar{A}BC$ & 1 & 0 & 0 & 0 \\
+                \hline     
+                $\bar{A}B\bar{C}$  & 1 & 0 & 0 & 1 \\
+                \hline
+                
+                $A\bar{B}\bar{C}$ & 1 & 0 & 0 & 1 \\
+                
+                \hline
+                
+                $A\bar{B}C$ & 1 & 0 & 1 & 0 \\
+                \hline
+                
+                $ABC$ & 1 & 0 & 0 & 0 \\
+                \hline
+                
+                $AB\bar{C}$ & 1 & 1 & 1 & 1 \\
+                \hline
+                
+            \end{tabular}
+            %\caption{Tabla de verdad del Demultiplexor}
+        \end{center}
+
+    \end{table}
+
+    \pagebreak
+
+    \begin{table}[H]
+        \begin{center}
+            \def\arraystretch{1.5}
+            \begin{tabular}{|c|c|c|c|c|}
+                \hline
+                &	$\bar{D}\bar{E}$ &	$\bar{D}E$ &	$D\bar{E}$ & $DE$ \\
+                \hline
+                $\bar{A}\bar{B}\bar{C}$ & 0 & 1 & 3 & 2 \\
+                \hline          
+                $\bar{A}\bar{B}C$ & 4 & 5 & 7 & 6 \\
+                \hline   
+                $\bar{A}BC$ & 12 & 13 & 15 & 14 \\
+                \hline     
+                $\bar{A}B\bar{C}$  & 8 & 9 & 11 & 10 \\
+                \hline
+                
+                $A\bar{B}\bar{C}$ & 16 & 17 & 19 & 18 \\
+                
+                \hline
+                
+                $A\bar{B}C$ & 20 & 21 & 23 & 22 \\
+                \hline
+                
+                $ABC$ & 28 & 29 & 31 & 30 \\
+                \hline
+                
+                $AB\bar{C}$ & 24 & 25 & 27 & 26 \\
+                \hline
+                
+            \end{tabular}
+            %\caption{Tabla de verdad del Demultiplexor}
+        \end{center}
+
+    \end{table}
 
 
 \subsubsection{Implementación mediante compuertas AND, OR y NOT}
 
 La expresión obtenida en \ref{canonica_minterm} puede ser implementada mediante compuertas lógicas facilmente:
 
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_logly.png}
 
 
 \subsubsection{Implementación mediante compuertas NAND}
-%Agregar NAND
+A su vez el circuito anterior implementado mediante compuertas nand queda de la siguiente manera:
 
-
-
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_nand_logly.png}
 
 
 
@@ -226,7 +417,7 @@ Luego se utiliza la propiedad de combianción para el producto nuevamente, en am
 
 Por último se unen \ref{Maxterm_0_2_8_10_final}, \ref{Maxterm_0_4_8_12_final} y \ref{Maxterm_7} para llegar a una expresión final:
 
-\begin{equation}
+\begin{equation}\label{eq:max_final}
 \boxed{(c + a) \cdot (b +a) \cdot (d + \bar{c} + \bar{b} + \bar{a})}
 \end{equation}
 
@@ -236,7 +427,11 @@ Por último se unen \ref{Maxterm_0_2_8_10_final}, \ref{Maxterm_0_4_8_12_final} y
 
 \subsubsection{Implementación mediante compuertas AND, OR y NOT}
 
-%Agregar compuertas AND, NOT y OR
+Al igual que con la expresion anterior se implementó la función obtenida en \ref{eq:max_final} mediante compuertas AND, OR y NOT:
+
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_logly.png}
 
 \subsubsection{Implementación mediante compuertas NAND}
-%Agregar compuertas NAND
+Por último se realizó el circuito anterior solamente con compuertas nand:
+
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_nand_logly.png}
