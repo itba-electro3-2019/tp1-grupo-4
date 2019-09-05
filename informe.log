@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  5 SEP 2019 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.28)  5 SEP 2019 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,6 +990,9 @@ LaTeX Warning: Label `eq:minterm_4_12_20_28' multiply defined.
 
 LaTeX Warning: Label `eq:minterm_24_25_26_27' multiply defined.
 
+
+LaTeX Warning: Label `fig:Karnaughs_encoder' multiply defined.
+
 )
 \openout1 = `informe.aux'.
 
@@ -1201,7 +1204,8 @@ LaTeX Info: Redefining \% on input line 1.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./Ejercicio_2/Ejercicio_2.tex
+ (./Ejercicio_1/Ejercicio_1.tex)
+(./Ejercicio_2/Ejercicio_2.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1219,13 +1223,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
+<Ejercicio_2/Karnaugh/K1.pdf, id=31, 170.64151pt x 191.71927pt>
+File: Ejercicio_2/Karnaugh/K1.pdf Graphic file (type pdf)
+<use Ejercicio_2/Karnaugh/K1.pdf>
+Package pdftex.def Info: Ejercicio_2/Karnaugh/K1.pdf  used on input line 171.
+(pdftex.def)             Requested size: 113.81102pt x 123.9706pt.
+<Ejercicio_2/Karnaugh/K2.pdf, id=33, 170.64151pt x 191.71927pt>
+File: Ejercicio_2/Karnaugh/K2.pdf Graphic file (type pdf)
+<use Ejercicio_2/Karnaugh/K2.pdf>
+Package pdftex.def Info: Ejercicio_2/Karnaugh/K2.pdf  used on input line 172.
+(pdftex.def)             Requested size: 113.81102pt x 123.9706pt.
+<Ejercicio_2/Karnaugh/K3.pdf, id=35, 170.64151pt x 191.71927pt>
+File: Ejercicio_2/Karnaugh/K3.pdf Graphic file (type pdf)
+<use Ejercicio_2/Karnaugh/K3.pdf>
+Package pdftex.def Info: Ejercicio_2/Karnaugh/K3.pdf  used on input line 173.
+(pdftex.def)             Requested size: 113.81102pt x 123.9706pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[4 <./Ejercicio_2/Karnaugh/K1.pdf> <./Ejercicio_2/Karnaugh/K2.pdf> <./Ejercicio
+_2/Karnaugh/K3.pdf>]
+<Ejercicio_2/circuitos/Ej2_parte1_logicly.png, id=79, 716.6775pt x 738.76pt>
+File: Ejercicio_2/circuitos/Ej2_parte1_logicly.png Graphic file (type png)
+<use Ejercicio_2/circuitos/Ej2_parte1_logicly.png>
+Package pdftex.def Info: Ejercicio_2/circuitos/Ej2_parte1_logicly.png  used on 
+input line 283.
+(pdftex.def)             Requested size: 341.43143pt x 227.61543pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1233,46 +1261,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-<Ejercicio_2/circuitos/Ej2_parte1_logicly.png, id=38, 716.6775pt x 738.76pt>
-File: Ejercicio_2/circuitos/Ej2_parte1_logicly.png Graphic file (type png)
-<use Ejercicio_2/circuitos/Ej2_parte1_logicly.png>
-Package pdftex.def Info: Ejercicio_2/circuitos/Ej2_parte1_logicly.png  used on 
-input line 366.
-(pdftex.def)             Requested size: 716.67577pt x 738.75818pt.
-
-Overfull \hbox (303.05577pt too wide) in paragraph at lines 366--367
-[][] 
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]
-Overfull \vbox (88.32819pt too high) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7 <./Ejercicio_2/circuitos/Ej2_parte1_logicly.png>]
-<Ejercicio_2/circuitos/Ej2_parte1_nand_logicly.png, id=47, 716.6775pt x 547.043
+<Ejercicio_2/circuitos/Ej2_parte1_nand_logicly.png, id=83, 716.6775pt x 547.043
 75pt>
 File: Ejercicio_2/circuitos/Ej2_parte1_nand_logicly.png Graphic file (type png)
 
 <use Ejercicio_2/circuitos/Ej2_parte1_nand_logicly.png>
 Package pdftex.def Info: Ejercicio_2/circuitos/Ej2_parte1_nand_logicly.png  use
-d on input line 372.
-(pdftex.def)             Requested size: 716.67577pt x 547.0424pt.
-
-Overfull \hbox (303.05577pt too wide) in paragraph at lines 372--373
-[][] 
- []
+d on input line 291.
+(pdftex.def)             Requested size: 341.43143pt x 227.61992pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1280,17 +1276,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./Ejercicio_2/circuitos/Ej2_parte1_nand_logicly.png>]
-<Ejercicio_2/circuitos/Ej2_parte2_logily.png, id=52, 623.32875pt x 495.8525pt>
+[6 <./Ejercicio_2/circuitos/Ej2_parte1_logicly.png> <./Ejercicio_2/circuitos/Ej
+2_parte1_nand_logicly.png>]
+<Ejercicio_2/circuitos/Ej2_parte2_logily.png, id=91, 623.32875pt x 495.8525pt>
 File: Ejercicio_2/circuitos/Ej2_parte2_logily.png Graphic file (type png)
 <use Ejercicio_2/circuitos/Ej2_parte2_logily.png>
 Package pdftex.def Info: Ejercicio_2/circuitos/Ej2_parte2_logily.png  used on i
-nput line 437.
-(pdftex.def)             Requested size: 623.32722pt x 495.85129pt.
-
-Overfull \hbox (209.70723pt too wide) in paragraph at lines 437--438
-[][] 
- []
+nput line 360.
+(pdftex.def)             Requested size: 284.52809pt x 170.71368pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1298,20 +1291,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
-<Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png, id=57, 870.25125pt x 656.45
+[7]
+<Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png, id=95, 870.25125pt x 656.45
 25pt>
 File: Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png Graphic file (type png)
 
 <use Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png>
 Package pdftex.def Info: Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png  use
-d on input line 442.
-(pdftex.def)             Requested size: 870.24913pt x 656.4509pt.
-
-Overfull \hbox (456.62914pt too wide) in paragraph at lines 442--443
-[][] 
- []
-
+d on input line 367.
+(pdftex.def)             Requested size: 284.52802pt x 170.71368pt.
 ) (./Ejercicio_3/Ejercicio_3.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1319,42 +1307,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./Ejercicio_2/circuitos/Ej2_parte2_logily.png>]
-Overfull \vbox (6.0209pt too high) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <./Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png>]
-<Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, id=66, 164.98639pt x 137.81387pt>
+[8 <./Ejercicio_2/circuitos/Ej2_parte2_logily.png> <./Ejercicio_2/circuitos/Ej2
+_parte2_nand_logicly.png>]
+<Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf, id=101, 164.98639pt x 137.81387pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf  used on input
  line 45.
 (pdftex.def)             Requested size: 113.81102pt x 92.28563pt.
-<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=68, 165.80746pt x 137.81387pt>
+<Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf, id=103, 165.80746pt x 137.81387pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_B.pdf  used on input
  line 46.
 (pdftex.def)             Requested size: 113.81102pt x 91.76134pt.
-<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=70, 165.49329pt x 137.81387pt>
+<Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf, id=105, 165.49329pt x 137.81387pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf  used on input
  line 47.
 (pdftex.def)             Requested size: 113.81102pt x 91.0611pt.
-<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=72, 166.46591pt x 135.8144pt>
+<Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf, id=107, 166.46591pt x 135.8144pt>
 File: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/DEMUX/Salida_D.pdf  used on input
  line 48.
 (pdftex.def)             Requested size: 113.81102pt x 89.77388pt.
-<Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, id=74, 257.14468pt x 204.42172pt>
+<Ejercicio_3/Circuitos/Circuito_DEMUX.pdf, id=109, 257.14468pt x 204.42172pt>
 File: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf Graphic file (type pdf)
 <use Ejercicio_3/Circuitos/Circuito_DEMUX.pdf>
 Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_DEMUX.pdf  used on inpu
@@ -1367,24 +1346,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf> <./Ejercicio_3/Karnaugh/DEMUX/S
-alida_B.pdf> <./Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf> <./Ejercicio_3/Karnaug
-h/DEMUX/Salida_D.pdf>]
-<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=144, 170.64151pt x 191.71927pt
+[9 <./Ejercicio_3/Karnaugh/DEMUX/Salida_A.pdf> <./Ejercicio_3/Karnaugh/DEMUX/Sa
+lida_B.pdf> <./Ejercicio_3/Karnaugh/DEMUX/Salida_C.pdf> <./Ejercicio_3/Karnaugh
+/DEMUX/Salida_D.pdf> <./Ejercicio_3/Circuitos/Circuito_DEMUX.pdf>]
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf, id=183, 170.64151pt x 191.71927pt
 >
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf  used on i
 nput line 95.
 (pdftex.def)             Requested size: 113.81102pt x 123.9706pt.
-<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=146, 170.64151pt x 191.71927pt
+<Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf, id=185, 170.64151pt x 191.71927pt
 >
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_S_1.pdf  used on i
 nput line 96.
 (pdftex.def)             Requested size: 113.81102pt x 123.9706pt.
-<Ejercicio_3/Karnaugh/ENCODER/Salida_E.pdf, id=148, 234.03134pt x 191.71927pt>
+<Ejercicio_3/Karnaugh/ENCODER/Salida_E.pdf, id=187, 234.03134pt x 191.71927pt>
 File: Ejercicio_3/Karnaugh/ENCODER/Salida_E.pdf Graphic file (type pdf)
 <use Ejercicio_3/Karnaugh/ENCODER/Salida_E.pdf>
 Package pdftex.def Info: Ejercicio_3/Karnaugh/ENCODER/Salida_E.pdf  used on inp
@@ -1395,23 +1374,14 @@ Overfull \hbox (5.90883pt too wide) in paragraph at lines 94--99
  [][] 
  []
 
-<Ejercicio_3/Circuitos/Circuito_ENCODER.pdf, id=150, 359.65767pt x 203.38383pt>
+<Ejercicio_3/Circuitos/Circuito_ENCODER.pdf, id=189, 359.65767pt x 203.38383pt>
 
 File: Ejercicio_3/Circuitos/Circuito_ENCODER.pdf Graphic file (type pdf)
 <use Ejercicio_3/Circuitos/Circuito_ENCODER.pdf>
 Package pdftex.def Info: Ejercicio_3/Circuitos/Circuito_ENCODER.pdf  used on in
 put line 106.
 (pdftex.def)             Requested size: 199.16785pt x 113.81036pt.
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf> <./Ejercicio_3/Karnaugh/ENC
-ODER/Salida_S_1.pdf> <./Ejercicio_3/Karnaugh/ENCODER/Salida_E.pdf> <./Ejercicio
-_3/Circuitos/Circuito_DEMUX.pdf>]
-<Ejercicio_3/Circuitos/Circuito_ENCODER_ERROR.pdf, id=204, 342.77159pt x 203.38
+<Ejercicio_3/Circuitos/Circuito_ENCODER_ERROR.pdf, id=190, 342.77159pt x 203.38
 383pt>
 File: Ejercicio_3/Circuitos/Circuito_ENCODER_ERROR.pdf Graphic file (type pdf)
 <use Ejercicio_3/Circuitos/Circuito_ENCODER_ERROR.pdf>
@@ -1425,40 +1395,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./Ejercicio_3/Circuitos/Circuito_ENCODER.pdf> <./Ejercicio_3/Circuitos/Cir
-cuito_ENCODER_ERROR.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-<Ejercicio_4/Karnaugh/Y_1.pdf, id=225, 172.14111pt x 192.72pt>
-File: Ejercicio_4/Karnaugh/Y_1.pdf Graphic file (type pdf)
-<use Ejercicio_4/Karnaugh/Y_1.pdf>
-Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_1.pdf  used on input line 100.
-(pdftex.def)             Requested size: 113.81102pt x 129.3457pt.
-<Ejercicio_4/Karnaugh/Y_2.pdf, id=227, 172.14111pt x 194.71947pt>
-File: Ejercicio_4/Karnaugh/Y_2.pdf Graphic file (type pdf)
-<use Ejercicio_4/Karnaugh/Y_2.pdf>
-Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_2.pdf  used on input line 101.
-(pdftex.def)             Requested size: 113.81102pt x 130.85474pt.
-<Ejercicio_4/Karnaugh/Y_3.pdf, id=229, 172.14111pt x 194.71947pt>
-File: Ejercicio_4/Karnaugh/Y_3.pdf Graphic file (type pdf)
-<use Ejercicio_4/Karnaugh/Y_3.pdf>
-Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_3.pdf  used on input line 102.
-(pdftex.def)             Requested size: 113.81102pt x 130.85474pt.
-<Ejercicio_4/Karnaugh/Y_4.pdf, id=231, 172.14111pt x 194.71947pt>
-File: Ejercicio_4/Karnaugh/Y_4.pdf Graphic file (type pdf)
-<use Ejercicio_4/Karnaugh/Y_4.pdf>
-Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_4.pdf  used on input line 103.
-(pdftex.def)             Requested size: 113.81102pt x 130.85474pt.
+[10 <./Ejercicio_3/Karnaugh/ENCODER/Salida_S_0.pdf> <./Ejercicio_3/Karnaugh/ENC
+ODER/Salida_S_1.pdf> <./Ejercicio_3/Karnaugh/ENCODER/Salida_E.pdf> <./Ejercicio
+_3/Circuitos/Circuito_ENCODER.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
-<Ejercicio_4/Circuito.jpg, id=236, 551.661pt x 402.90524pt>
+[11 <./Ejercicio_3/Circuitos/Circuito_ENCODER_ERROR.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+<Ejercicio_4/Karnaugh/Y_1.pdf, id=253, 172.14111pt x 192.72pt>
+File: Ejercicio_4/Karnaugh/Y_1.pdf Graphic file (type pdf)
+<use Ejercicio_4/Karnaugh/Y_1.pdf>
+Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_1.pdf  used on input line 100.
+(pdftex.def)             Requested size: 113.81102pt x 129.3457pt.
+<Ejercicio_4/Karnaugh/Y_2.pdf, id=255, 172.14111pt x 194.71947pt>
+File: Ejercicio_4/Karnaugh/Y_2.pdf Graphic file (type pdf)
+<use Ejercicio_4/Karnaugh/Y_2.pdf>
+Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_2.pdf  used on input line 101.
+(pdftex.def)             Requested size: 113.81102pt x 130.85474pt.
+<Ejercicio_4/Karnaugh/Y_3.pdf, id=257, 172.14111pt x 194.71947pt>
+File: Ejercicio_4/Karnaugh/Y_3.pdf Graphic file (type pdf)
+<use Ejercicio_4/Karnaugh/Y_3.pdf>
+Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_3.pdf  used on input line 102.
+(pdftex.def)             Requested size: 113.81102pt x 130.85474pt.
+<Ejercicio_4/Karnaugh/Y_4.pdf, id=259, 172.14111pt x 194.71947pt>
+File: Ejercicio_4/Karnaugh/Y_4.pdf Graphic file (type pdf)
+<use Ejercicio_4/Karnaugh/Y_4.pdf>
+Package pdftex.def Info: Ejercicio_4/Karnaugh/Y_4.pdf  used on input line 103.
+(pdftex.def)             Requested size: 113.81102pt x 130.85474pt.
+<Ejercicio_4/Circuito.jpg, id=261, 551.661pt x 402.90524pt>
 File: Ejercicio_4/Circuito.jpg Graphic file (type jpg)
 <use Ejercicio_4/Circuito.jpg>
 Package pdftex.def Info: Ejercicio_4/Circuito.jpg  used on input line 237.
@@ -1468,6 +1439,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--239
 
  []
 
+) (./Ejercicio_5/Informe/Ejercicio_5.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./Ejercicio_4/Karnaugh/Y_1.pdf> <./Ejercicio_4/Karnaugh/Y_2.pdf> <./Ejerci
+cio_4/Karnaugh/Y_3.pdf> <./Ejercicio_4/Karnaugh/Y_4.pdf>]
+<Ejercicio_5/Informe/fig_0.png, id=325, 703.62875pt x 278.03876pt>
+File: Ejercicio_5/Informe/fig_0.png Graphic file (type png)
+<use Ejercicio_5/Informe/fig_0.png>
+Package pdftex.def Info: Ejercicio_5/Informe/fig_0.png  used on input line 11.
+(pdftex.def)             Requested size: 346.8962pt x 142.26456pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./Ejercicio_4/Circuito.jpg> <./Ejercicio_5/Informe/fig_0.png>]
+<Ejercicio_5/Informe/fig_1.png, id=330, 693.59125pt x 214.8025pt>
+File: Ejercicio_5/Informe/fig_1.png Graphic file (type png)
+<use Ejercicio_5/Informe/fig_1.png>
+Package pdftex.def Info: Ejercicio_5/Informe/fig_1.png  used on input line 24.
+(pdftex.def)             Requested size: 346.9006pt x 113.812pt.
+<Ejercicio_5/Informe/fig_2.png, id=331, 737.75626pt x 523.9575pt>
+File: Ejercicio_5/Informe/fig_2.png Graphic file (type png)
+<use Ejercicio_5/Informe/fig_2.png>
+Package pdftex.def Info: Ejercicio_5/Informe/fig_2.png  used on input line 32.
+(pdftex.def)             Requested size: 346.89731pt x 246.36398pt.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1475,9 +1478,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <./Ejercicio_4/Karnaugh/Y_1.pdf> <./Ejercicio_4/Karnaugh/Y_2.pdf> <./Ejerci
-cio_4/Karnaugh/Y_3.pdf> <./Ejercicio_4/Karnaugh/Y_4.pdf> <./Ejercicio_4/Circuit
-o.jpg>] (./informe.aux
+[14 <./Ejercicio_5/Informe/fig_1.png> <./Ejercicio_5/Informe/fig_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15] (./informe.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -1489,13 +1497,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19231 strings out of 494820
- 360944 string characters out of 6177789
- 466343 words of memory out of 5000000
- 22105 multiletter control sequences out of 15000+600000
- 23027 words of font info for 80 fonts, out of 8000000 for 9000
+ 18755 strings out of 494820
+ 351014 string characters out of 6177789
+ 435780 words of memory out of 5000000
+ 21615 multiletter control sequences out of 15000+600000
+ 22858 words of font info for 79 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 64i,15n,94p,827b,1251s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,14n,94p,914b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texl
@@ -1512,12 +1520,11 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on informe.pdf (17 pages, 877632 bytes).
+t/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on informe.pdf (16 pages, 1049911 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 390 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

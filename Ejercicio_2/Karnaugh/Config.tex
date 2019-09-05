@@ -1,6 +1,25 @@
-%\documentclass[x11names,border=10pt,tikz]{standalone}
-%\usepackage{xstring}    % needed for string manipulations
-%\usepackage{fmtcount}   % needed for some binary printing
+\documentclass[x11names,border=10pt,tikz]{standalone}
+\usepackage[siunitx,american]{circuitikz}
+\usepackage{pgfplots}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usetikzlibrary{arrows}
+
+
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
+
+\pgfplotsset{compat=1.15}
+
+\usepackage{xstring}    % needed for string manipulations
+\usepackage{fmtcount}   % needed for some binary printing
 \usetikzlibrary{calc,math}
 \newif\ifKaddress
 \newif\ifKInd
