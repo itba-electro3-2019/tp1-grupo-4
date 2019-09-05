@@ -1,8 +1,8 @@
 \section{Algebra booleana y compuertas lógicas}
 
-En el álgebra booleana se conoce como término canónico de una función lógica a todo producto o suma en la cual aparecen todas las variables en su forma directa o inversa. Cualquier función lógica puede expresarse de forma canónica utilizando los conceptos de min y maxtérminos. El primero, se refiere a todas las filas para las cuales la función lógica es igual a uno en la tabla de verdad  correspondiente, mientras que el segundo se corresponde con todos los valores para los cuales la función es igual a cero. 
+En el álgebra booleana se conoce como término canónico de una función lógica a todo producto o suma en la cual aparecen todas las variables en su forma directa o inversa. Cualquier función lógica puede expresarse de forma canónica utilizando los conceptos de min y maxtérminos. El primero, se refiere a todas las filas para las cuales la función lógica es igual a uno en la tabla de verdad correspondiente, mientras que el segundo se corresponde con todos los valores para los cuales la función es igual a cero. 
 
-En el siguiente ejercicio se simplificarán dos funciones lógicas aplicando ambos conceptos. Luego se utilizarán mapas de Karnaugh para llegar a la misma expresión.A continuación se dibujará el circuito lógico resultante utilizando compuertas AND, OR y NOT, y por último, se usarán compuertas NAND exclusivamente.
+En el siguiente ejercicio se simplificarán dos funciones lógicas aplicando ambos conceptos. Luego se utilizarán mapas de Karnaugh para llegar a la misma expresión. A continuación se dibujará el circuito lógico resultante utilizando compuertas AND, OR y NOT, y por último, se usarán compuertas NAND exclusivamente.
 
 \subsection{Primera Expresión: suma de productos}
 
@@ -35,7 +35,7 @@ e \cdot d \cdot \bar{c} \cdot b \cdot a +
 e \cdot d \cdot c \cdot \bar{b} \cdot \bar{a} 
 \end{multline}
 
-La expresión anterior puede parecer complicada en un principio, pero esta ordenada según cada mintermino correspondiente. Para comenzar el proceso de simplfiicación, gracias a la ley de idempotencia se puede sumar términos ya presentes en la ecuación anterior. So procederá a duplicar los mintérminos 2, 18 y 26 y a ordenar la fórmula para faciliatr la simplificación. 
+La expresión anterior puede parecer complicada en un principio, pero esta ordenada según cada mintermino correspondiente. Para comenzar el proceso de simplificación, gracias a la ley de idempotencia se puede sumar términos ya presentes en la ecuación anterior. So procederá a duplicar los mintérminos 2, 18 y 26 y a ordenar la fórmula para facilitar la simplificación. 
 
 \begin{equation}
 \bar{e} \cdot \bar{d} \cdot \bar{c} \cdot \bar{b} \cdot \bar{a} +  %0
@@ -92,7 +92,7 @@ e \cdot d \cdot c \cdot (\bar{b} \cdot \bar{a} + \bar{b} \cdot a + b \cdot \bar{
 \bar{d} \cdot c \cdot b \cdot a \cdot (\bar{e} + e)
 \end{equation}
 
-Luego aplicando la propiedad de combinacion en todos los productos:
+Luego aplicando la propiedad de combinación en todos los productos:
 
 \begin{equation}\label{eq:minterm_0_2_16_18}
 \bar{d} \cdot \bar{c} \cdot \bar{a} \cdot (\bar{e} \cdot \bar{b} + \bar{e} \cdot b + e \cdot \bar{b} + e \cdot b)
@@ -158,7 +158,7 @@ e \cdot d \cdot c \cdot +
 \end{equation}
 
 
-\subsubsection{Simplificacioón mediante mapas de Karnaugh}
+\subsubsection{Simplificación mediante mapas de Karnaugh}
     \begin{tikzpicture}[x=1cm,y=1cm]
         \K[x bits = 2, y bits = 2, label={$$},
         variable names = {$D$,$C$,$B$,$A$,}]
