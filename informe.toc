@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}C\IeC {\'a}lculo de Resoluci\IeC {\'o}n y rango con convenci\IeC {\'o}n de punto fijo}{2}
+\contentsline {section}{\numberline {2}Implementaci\IeC {\'o}n de m\IeC {\'o}dulos en verilog}{2}
+\contentsline {subsection}{\numberline {2.1}Demultiplexor de 4 salidas}{2}
+\contentsline {subsection}{\numberline {2.2}Codificador de 4 entradas}{3}
+\contentsline {section}{\numberline {3}Conversor a c\IeC {\'o}digo de Gray}{4}
+\contentsline {section}{\numberline {4}Ejercicio 5}{7}
