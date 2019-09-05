@@ -1,3 +1,8 @@
+%\input{Preambulo.tex}
+%
+%\begin{document}
+
+
 \section{Algebra booleana y compuertas lógicas}
 
 En el álgebra booleana se conoce como término canónico de una función lógica a todo producto o suma en la cual aparecen todas las variables en su forma directa o inversa. Cualquier función lógica puede expresarse de forma canónica utilizando los conceptos de min y maxtérminos. El primero, se refiere a todas las filas para las cuales la función lógica es igual a uno en la tabla de verdad correspondiente, mientras que el segundo se corresponde con todos los valores para los cuales la función es igual a cero. 
@@ -159,8 +164,9 @@ e \cdot d \cdot c \cdot +
 
 
 \subsubsection{Simplificación mediante mapas de Karnaugh}
+
     \begin{tikzpicture}[x=1cm,y=1cm]
-        \K[x bits = 2, y bits = 2, label={$$},
+        \K[x bits = 2, y bits = 2,
         variable names = {$D$,$C$,$B$,$A$,}]
         { 
         0000,1,    
@@ -193,7 +199,7 @@ e \cdot d \cdot c \cdot +
     \end{tikzpicture}
     
     \begin{tikzpicture}[x=1cm,y=1cm]
-        \K[x bits = 2, y bits = 2, label={$$},
+        \K[x bits = 2, y bits = 2,
         variable names = {$E$,$D$,$C$,$B$,}]
         { 
         0000,1,    
@@ -225,7 +231,7 @@ e \cdot d \cdot c \cdot +
     \end{tikzpicture}
     
     \begin{tikzpicture}[x=1cm,y=1cm]
-        \K[x bits = 2, y bits = 2, label={$$},
+        \K[x bits = 2, y bits = 2,
         variable names = {$E$,$D$,$C$,$B$,}]
         { 
         0000,0,    
@@ -256,7 +262,7 @@ e \cdot d \cdot c \cdot +
         $};
     \end{tikzpicture}
     
-    \pagebreak
+
 
     \begin{table}[H]
         \begin{center}
@@ -278,7 +284,7 @@ e \cdot d \cdot c \cdot +
 
     \end{table}
 
-    \pagebreak
+
     
     \begin{table}[H]
         \begin{center}
@@ -315,7 +321,7 @@ e \cdot d \cdot c \cdot +
 
     \end{table}
 
-    \pagebreak
+
 
     \begin{table}[H]
         \begin{center}
@@ -357,14 +363,13 @@ e \cdot d \cdot c \cdot +
 
 La expresión obtenida en \ref{canonica_minterm} puede ser implementada mediante compuertas lógicas facilmente:
 
-\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_logly.png}
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_logicly.png}
 
 
 \subsubsection{Implementación mediante compuertas NAND}
 A su vez el circuito anterior implementado mediante compuertas nand queda de la siguiente manera:
 
-\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_nand_logly.png}
-
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte1_nand_logicly.png}
 
 
 \subsection{Segunda expresión: producto de sumas}
@@ -429,9 +434,11 @@ Por último se unen \ref{Maxterm_0_2_8_10_final}, \ref{Maxterm_0_4_8_12_final} y
 
 Al igual que con la expresion anterior se implementó la función obtenida en \ref{eq:max_final} mediante compuertas AND, OR y NOT:
 
-\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_logly.png}
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_logily.png}
 
 \subsubsection{Implementación mediante compuertas NAND}
 Por último se realizó el circuito anterior solamente con compuertas nand:
 
-\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_nand_logly.png}
+\includegraphics{Ejercicio_2/circuitos/Ej2_parte2_nand_logicly.png}
+
+%\end{document}
