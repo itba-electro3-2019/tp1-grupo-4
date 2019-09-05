@@ -5,5 +5,4 @@ En esté repositorio vamos a desarrollar los ejercicios planteados por el TP1 de
 -	Para compilar el informe en Latex, ingresar el comando 'make' en el directorio principal.
 
 -	Para compilar y hacer uso de los bancos de pruebas del ejercicio 3, se deben correr los archivos batch "demuxtest.sh" y "encodertest.sh" dentro de la carpeta de dicho ejercicio.
-- Para compilar en el ejercicio 4 uno debe llamar el makefile con el siguiente comando "make -f  Verilog.mk"
 
